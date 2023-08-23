@@ -1,7 +1,7 @@
-
 import React from 'react'
 import Navbar from '../../Components/Header/Navbar';
 import Footer from '../../Components/Footer/Footer';
+import { NavLink } from 'react-router-dom';
 
 export default function Portfolio() {
   return (
@@ -37,7 +37,8 @@ export default function Portfolio() {
                   the first social finance app empowering Gen Z to take control of
                   their personal finances by setting spending goals together with
                   friends using gamification and social media elements.
-                  <a href="case-study-frich.html"  target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                
+                  <NavLink to="/FrichCaseStudy"  target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></NavLink>
                 </p>
               </div>
             </div>
@@ -59,7 +60,7 @@ export default function Portfolio() {
                 them in projects for business website and OPS Automation
                 
               </p>
-              <a href="case-study-swvl.html" target="_blank" class="learn-more ff-poppins">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              <NavLink to="/SwvlCaseStudy" target="_blank" class="learn-more ff-poppins">Learn More <i class="fa-solid fa-arrow-right"></i></NavLink>
             </div>
           </div>
           <div class="col-md-6">
@@ -103,7 +104,7 @@ export default function Portfolio() {
               A Celebrity Shout-out online platform built that connects users
               with their favorite celebrities. Users can pay them a fixed
               amount via this app solution to get customized shout-outs.
-              <a href="case-study-hala.html" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              <NavLink to="/HalahiCaseStudy" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></NavLink>
             </p>
           </div>
         </div>
@@ -121,7 +122,7 @@ export default function Portfolio() {
               wide range of beauty services delivered right to customers' doorsteps. In this case study,
               we will delve into the problem statement, the solution provided by Umile, and the impact
               it has made on the beauty service industry in Auckland.
-              <a href="case-study-umile.html" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              <NavLink to="/UmileCaseStudy" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></NavLink>
             </p>
           </div>
         </div>
@@ -178,7 +179,7 @@ establishment of the fund, the solution offered by the Radical Relief Fund, and 
 impactful outcomes achieved through their website and mobile app developed by UtoR
 Digital.
 
-              <a href="case-study-rrf.html" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              <NavLink to="/RRFCaseStudy" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></NavLink>
             </p>
           </div>
         </div>
@@ -201,7 +202,7 @@ Foodle, the solution provided by UtoR Digital, and the impactful outcomes achiev
 through their software architecture design, web services, and mobile app development.
 
 
-              <a href="case-study-foodle.html" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              <NavLink to="/FoodleCaseStudy" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></NavLink>
             </p>
           </div>
         </div>
@@ -222,11 +223,7 @@ through their software architecture design, web services, and mobile app develop
             </div>
           </div>
         </div>
-      
-  
-       
       </div>
-   
       {/* <!-- foodle-end -->
             
       <!-- Bhartee start --> */}
@@ -256,14 +253,11 @@ explores the problem statement that led to the development of Bhartee, the solut
 provided by UtoR, and the impactful outcomes achieved through their product strategy,
 design, and development from the Minimum Viable Product (MVP) to a full launch
 globally.
-              <a href="case-study-bhartee.html" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              <NavLink to="/BharteeCaseStudy" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></NavLink>
             </p>
           </div>
         </div>
-      
-       
       </div>
-  
       {/* <!-- Bhartee end -->
               <!-- outsoruce-nz-project starts  --> */}
               <div class="row maobile-margin flex-directions">
@@ -275,9 +269,7 @@ globally.
                       Founded in 2011, Outsource NZ is a state of the art software
                       house with whom we have diligently created a versatile range of
                       custom projects.
-      
-      
-                      <a href="" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+                      <NavLink to="/portfolio" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></NavLink>
                     </p>
                   </div>
                 </div>
@@ -301,9 +293,9 @@ globally.
                   </div>
                 </div>
               </div>
-{/*           
-              <!-- outsoruce-nz-project ends -->
-              <!-- korneez_col starts  --> */}
+              {/* <!-- outsoruce-nz-project ends --> */}
+
+              {/* <!-- korneez_col starts  -->  */}
       <div class="row maobile-margin">
         <div class="col-md-6">
           <div class="image_block project-img">
@@ -332,16 +324,16 @@ globally.
               manufacturing business which integrates the various business
               functions of inventory, requisition, procurement, orders,
               gatepasses and accounts.
-              <a href="case-study-korneez.html" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
+              <NavLink to="/KorneezCaseStudy" target="_blank" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></NavLink>
             </p>
           </div>
         </div>
       </div>
-    
-              {/* <!-- korneez_col ends -->
-                      <!-- adiutor_col starts  -->
-                      <!-- hided this product untill recv content from hassam  --> */}
-      <div class="row d-none maobile-margin flex-directions">
+       {/* <!-- korneez_col ends --> */}
+
+     {/* <!-- adiutor_col starts  -->
+     <!-- hided this product untill recv content from hassam  -->  */}
+      {/* <div class="row d-none maobile-margin flex-directions">
         <div class="col-md-6 portfolio-content">
           <div class="swvl_con" data-aos="fade-up-right">
             <h1 class="heading-2 ff-Unbounded">Adiutor<br /></h1>
@@ -364,12 +356,12 @@ globally.
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
  
                       {/* <!-- hided this product untill recv content from hassam  -->
       <!-- adiutor_col ends -->
       <!-- eeo_col starts  --> */}
-      <div class="row d-none maobile-margin">
+     {/*  <div class="row d-none maobile-margin">
         <div class="col-md-6">
           <div class="image_block  project-img">
             <div class="" data-aos="fade-right">
@@ -392,7 +384,7 @@ globally.
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>       
     {/* <!-- hided this product untill recv content from hassam  -->
       <!-- eeo_col ends --> */}
