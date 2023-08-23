@@ -1,67 +1,41 @@
 import React from 'react'
-// import { NavLink} from 'react-router-dom'
-import "../css/general.css";
-import "../css/normalize.css";
-import "../css/style.css";
+import { NavLink} from 'react-router-dom'
+// import "../css/general.css";
+// import "../css/normalize.css";
+// import "../css/style.css";
 import Logo from "../Assets/Logo/Logo.png";
 const Navbar = () => {
   return (
     <>
-   
-    {/* <header>
-     <nav className="navbar">
-        <div className='Logo'>
-            <img src={Logo} alt="" />
-        </div>
-        <ul className='unordered_list'>
-        
-        <div class="Custom-Link">
-            <span></span> <span></span> <span></span> <span></span>
-            <li><NavLink to="/"> Home </NavLink></li>
-          </div>
-        <li><NavLink to="/about"> About </NavLink></li> 
-        <li><NavLink to="/service"> Services </NavLink></li>
-        <li><NavLink to="/blog"> Blog </NavLink></li>
-        <li><NavLink to="/contact"> Contact Us </NavLink></li>
-        </ul>
-        <div>
-            <button>Request A Quote</button>
-        </div>
-        </nav>
-        </header> */}
         <header data-collapse="medium" role="banner" class="navigation w-nav">
     <div class="navigation-wrap">
-      <a href="home" aria-current="page" class="logo-link w-nav-brand w--current"><img src={Logo}
-          width="100" sizes="100px" srcset=" " alt="" class="logo-image" /></a>
+      <NavLink to="/" aria-current="page" class="logo-link w-nav-brand w--current "><img src={Logo}
+          width="100" sizes="100px" srcset=" " alt="" class="logo-image" /></NavLink>
       <div class="menu">
-        <nav role="navigation" class="navigation-items w-nav-menu">
+        <nav role="navigation" class="navigation-items w-nav-menu Nav_Header">
           <div class="custom-btn">
             <span></span> <span></span> <span></span> <span></span>
-            <a href="home" class="navigation-item w-nav-link">Home</a>
+             <NavLink  to="/" class="navigation-item w-nav-link">Home</NavLink>
           </div>
           <div class="custom-btn">
             <span></span> <span></span> <span></span> <span></span>
-            <a href="startup_fast_track"  class="navigation-item w-nav-link"> Startup Fast Track</a>
+            <NavLink to="/startup_fast_track"  class="navigation-item w-nav-link"> Startup Fast Track</NavLink>
           </div>
           <div class="custom-btn">
             <span></span> <span></span> <span></span> <span></span>
-            <a href="portfolio" class="navigation-item w-nav-link">Portfolio</a>
+            <NavLink to="/portfolio"  class="navigation-item w-nav-link">Portfolio</NavLink>
           </div>
           <div class="custom-btn">
             <span></span> <span></span> <span></span> <span></span>
-            <a href="services" class="navigation-item w-nav-link">Services</a>
-          </div>
-          {/* <div class="custom-btn">
-            <span></span> <span></span> <span></span> <span></span>
-            <NavLink to="portfolio.html" class="navigation-item w-nav-link">Portfolio</NavLink>
-          </div>  */}
-          <div class="custom-btn">
-            <span></span> <span></span> <span></span> <span></span>
-            <a href="about" class="navigation-item w-nav-link">About Us</a>
+            <NavLink to="/services" class="navigation-item w-nav-link">Services</NavLink>
           </div>
           <div class="custom-btn">
             <span></span> <span></span> <span></span> <span></span>
-            <a href="contact" class="navigation-item w-nav-link">Contact</a>
+            <NavLink to="/about" class="navigation-item w-nav-link">About Us</NavLink>
+          </div>
+          <div class="custom-btn">
+            <span></span> <span></span> <span></span> <span></span>
+            <NavLink to="/contact" class="navigation-item w-nav-link">Contact</NavLink>
           </div>
         </nav>
         <div class="menu-button w-nav-button">

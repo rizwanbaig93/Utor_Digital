@@ -3,18 +3,31 @@ import WhiteLogo from "../Assets/images/Logo-White.png"
 import "../css/general.css"
 import "../css/normalize.css"
 import "../css/style.css"
+import { NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
     <>
-    <footer class="section footer_sec" data-aos="fade-up">
-    <video class="video-tag is-visible is-playing" loop autoPlay muted>
-               {/* <video src="https://dpxvvh5ebrof7.cloudfront.net/ac954200-3ffa-46fb-b8c1-af81d1b7556f.mp4" type="video/mp4" data-aos="zoom-in-left" /> */}
-              <source src="https://v4.cdnpk.net/videvo_files/video/free/video0467/large_watermarked/_import_61516878597381.93871393_FPpreview.mp4" type="video/mp4" />
-               {/* <video src="https://dpxvvh5ebrof7.cloudfront.net/ac954200-3ffa-46fb-b8c1-af81d1b7556f.mp4" type="video/mp4" data-aos="zoom-in-left" /> */}
-              <source src="https://v4.cdnpk.net/videvo_files/video/free/video0467/large_watermarked/_import_61516878597381.93871393_FPpreview.mp4" type="video/mp4" />
-            </video>
-    
+    <footer class="section footer_sec hero">
+
+    <div class=""> 
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+  <div class="cube"></div>
+</div>
     <div class="container">
       <div class="footer-wrap">
         <div class="footer" data-aos="zoom-in-left">
@@ -45,11 +58,11 @@ function Footer() {
             <div class="w-col w-col-3 w-col-medium-4 w-col-small-small-stack">
               <div class="utor_links">
                 <h4 class="heading-4" data-aos="zoom-out-down">UtoR Digital</h4>
-                <a href="Startup_fast_track.html" class="link_nl sft_link" data-aos="zoom-out-right">Startup fast track</a>
-                <a href="about.html" class="link_nl aboutus_link" data-aos="zoom-out-left">About Us</a>
-                <a href="services.html" class="link_nl services_link" data-aos="zoom-out-up">Services</a>
-                <a href="projects.html" class="link_nl projects-link" data-aos="zoom-out-down">Portfolio</a>
-                <a href="contact.html" class="link_nl contact_link" data-aos="zoom-out-left">Contact Us</a>
+                <NavLink to="/startup_fast_track" class="link_nl sft_link text-white" data-aos="zoom-out-right">Startup fast track</NavLink>
+                <NavLink to="/about" class="link_nl aboutus_link" data-aos="zoom-out-left">About Us</NavLink>
+                <NavLink to="/services" class="link_nl services_link" data-aos="zoom-out-up">Services</NavLink>
+                <NavLink to="/portfolio" class="link_nl projects-link" data-aos="zoom-out-down">Portfolio</NavLink>
+                <NavLink to="/contact" class="link_nl contact_link" data-aos="zoom-out-left">Contact Us</NavLink>
               </div>
             </div>
             <div class="w-col w-col-3 w-col-medium-4 w-col-small-small-stack get-in-touch">
@@ -66,8 +79,9 @@ function Footer() {
                   <a href="https://www.linkedin.com/company/utor-digital/mycompany/?viewAsMember=true" class="linkedin_link" target="_blank">Linkedin</a>
                 </div>
               </div>
+              {/* <lottie-player src="https://lottie.host/498723bd-b8a3-4c45-97de-7fe44e6d225e/u0zCEYLc3V.json" background="transparent" speed="1" style={{ width: "350px", height: "350px;"}}  loop autoplay></lottie-player> */}
               <div class="pceb_container">
-                {/* <img src={psep} loading="lazy" alt="" /> */}
+                <img src={require ("../Assets/images/pseb.png")} loading="lazy" alt="" />
               </div>
             </div>
           </div>

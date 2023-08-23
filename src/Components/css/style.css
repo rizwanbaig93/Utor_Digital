@@ -1,6 +1,15 @@
 :root {
   --primary-color: #0d3786;
 }
+.utor_links a {
+  padding: 3px 0;
+  color: white !important;
+}
+.Nav_Header a.active {
+  background-color: var(--primary-color);
+  color: white !important;
+  border-radius: 25px;
+}
 .service_content{
   width: 100%;
   min-width: 100%;
@@ -121,7 +130,7 @@ h2 {
   margin-bottom: 10px;
   font-size: 36px;
   font-weight: 400;
-  line-height: 50px;
+  line-height: 40px;
 }
 h3 {
   margin-top: 10px;
@@ -156,17 +165,18 @@ p {
   display: inline-block;
 }
 a {
-  color: #1a1b1f;
+  color: var(--primary-color);
   font-weight: 600;
-  text-decoration: underline;
+  text-decoration: none;
   transition: opacity .2s;
   display: block;
-}
+  font-size: 0.9rem;
+} 
 a:hover {
-  color: #32343a;
+  color: #333a32;
 }
 a:active {
-  color: #43464d;
+  color: #4d4343;
 }
 
 ul {
@@ -345,7 +355,7 @@ figcaption {
   color: #fff;
 }
 .section.footer_sec {
-  background-color: #052562;
+  /* background-color: #052562; */
   margin-top: 0;
   margin-bottom: 0;
   margin-left: auto;
@@ -541,7 +551,7 @@ nav.navigation-items.w-nav-menu .dropdown-toggle::after {
   background-color: rgba(255, 255, 255, .8);
 }
 .button.cc-white-button:active {
-  background-color: rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, .9) !;
 }
 .label {
   letter-spacing: 1px;
@@ -1412,7 +1422,7 @@ header.sticky {
   min-height: 500px;
   color: #fff;
   background-color: rgba(0, 0, 0, 0);
-  /* background-image: url('../images/Artboard-1.png'); */
+  background-image: url('../Assets//images//Artboard-1.png');
   background-position: 0 0;
   flex-direction: column;
   margin-bottom: 0;
@@ -2828,7 +2838,7 @@ p:last-child {
   line-height: 1.1;
 }
 .join-today {
-  /* background-image: url('../images/join-startup.jpg'); */
+  background-image: url('../Assets//images//join-startup.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -4171,10 +4181,15 @@ p:last-child {
   align-self: center;
   align-items: center;
   display: flex;
+  opacity: 0;
+  transition: 0.4s;
   position: absolute;
 }
+.content_div:hover .name_div {
+opacity: 1 !important;
+}
 .name_div:hover {
-  display: flex;
+  display: flex !important;
 }
 .name_text {
   color: #fff;
@@ -5635,7 +5650,6 @@ h1.hero-title {
 .navigation-items .custom-btn{
   margin: 5px 10px;
   background-color: transparent;
-  /* width: 30%; */
 }
 .link.button {
   width: 25vw;
@@ -6549,5 +6563,4 @@ h1.hero-title {
 .testi-owl .bg-radil {
 height: 20em;
 }
-
  }
