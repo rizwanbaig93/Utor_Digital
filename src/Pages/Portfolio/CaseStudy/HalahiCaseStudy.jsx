@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from "../..//../Components/Footer/Footer";
 
 export default function HalahiCaseStudy() {
   return (
@@ -46,13 +47,13 @@ export default function HalahiCaseStudy() {
       </div>
       <div class="col-md-6">
         <div class="umile-intro d-flex justify-content-center align-items-center" data-aos="fade-up">
-         {/* <img src="images/vedios/problem-solving.gif" alt=""> */}
+        <img src={require ("../../images/vedios/problem-solving.gif")} alt="" />
         </div>
       </div>
       
       <div class="col-md-6">
         <div class="umile-intro d-flex justify-content-center align-items-center" data-aos="fade-right">
-          {/* <img src="images/vedios/mobile-dev.gif" alt="" class="img-fluid"> */}
+        <img src={require ("../../images/vedios/mobile-dev.gif")} alt="" class="img-fluid" />
          </div>
       </div>
       <div class="col-md-6 mobile-app">
@@ -129,12 +130,43 @@ export default function HalahiCaseStudy() {
       </div>
       <div class="col-md-6">
         <div class="umile-intro impact-gif" data-aos="fade-up">
-          {/* <img src="images/vedios/impact.gif" alt="" class="img-fluid"> */}
+        <img src={require ("../../images/vedios/impact.gif")} alt="" class="img-fluid" />
          </div>
       </div>
     </div>
    </div>
       </div>
+      <div class="section cc-cta grow-business-sec">
+        <div class="container ">
+          <div class="hero-sec-bg-video">
+            <video class="video-tag is-visible is-playing" autoplay="" muted="" loop="" poster={require("..//../images/footer-bg.webp")}>
+              {/* <source src="images/vedios/foodle.mp4" type="video/mp4"> */}
+            </video>
+          </div>
+          <div class="cta-wrap">
+            <div class="custom-slide-in aos-init aos-animate" data-aos="fade-down-right">
+              <div class="cta-text section-title hide-slide">
+                <div class="label heading-2 testimonial-label aos-init aos-animate conculsion-label" data-aos="zoom-out">
+                 Conclusion
+                </div>
+                <div class="paragraph-bigger cc-bigger-light ff-poppins aos-init" data-aos="zoom-out-left">
+                  <p class="ff-poppins">HalaHi, in collaboration with UtoR, has successfully developed a platform that facilitates
+                    authentic fan-celebrity interactions through personalized video shoutouts. The
+                    development of the MVP and its transformation into a commercial version have
+                    revolutionized the way fans engage with their favorite celebrities, fostering meaningful
+                    connections and creating memorable experiences. The collaboration exemplifies the
+                    power of technology in redefining fan experiences and offering celebrities a genuine and
+                    enjoyable way to interact with their fan base.
+                    
+                    </p>
+                </div>
+           
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer/>
     </>
   )
 }

@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
         </nav>
         <div class="menu-button w-nav-button">
-          <img src="images/menu-icon_1menu-icon.png" width="22" alt="" class="menu-icon" />
+          <img src={require ("../Assets/images/menu-icon_1menu-icon.png")} width="22" alt="" class="menu-icon" />
         </div>
       </div> 
       {/* <!-- request a qoute btn  --> */}

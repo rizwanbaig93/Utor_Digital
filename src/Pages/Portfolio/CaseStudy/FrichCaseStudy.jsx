@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from "../..//../Components/Footer/Footer";
 
 function FrichCaseStudy() {
   return (
@@ -6,7 +7,6 @@ function FrichCaseStudy() {
       <div class="section cc-cta grow-business-sec">
       <div class="container ">
         <div class="hero-sec-bg-video title-vedio">
-   
           <iframe  src="https://www.youtube.com/embed/_rCdLsvwAYs?controls=0&loop=1&autoplay=1&mute=1&playlist=_rCdLsvwAYs"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
@@ -41,13 +41,13 @@ function FrichCaseStudy() {
       </div>
       <div class="col-md-6">
         <div class="umile-intro d-flex justify-content-center align-items-center" data-aos="fade-up">
-         {/* <img src={require ("")} alt="" /> */}
+         <img src={require ("../../images/vedios/problem-solving.gif")} alt="" />
         </div>
       </div>
       
       <div class="col-md-6">
         <div class="umile-intro d-flex justify-content-center align-items-center" data-aos="fade-right">
-          <img src="../images/vedios/mobile-dev.gif" alt="" class="img-fluid" />
+          <img src={require ("../../images/vedios/mobile-dev.gif")} alt="" class="img-fluid" />
          </div>
       </div>
       <div class="col-md-6 mobile-app">
@@ -120,7 +120,7 @@ function FrichCaseStudy() {
       </div>
       <div class="col-md-6">
         <div class="umile-intro impact-gif" data-aos="fade-up">
-          {/* <img src="images/vedios/impact.gif" alt="" class="img-fluid" /> */}
+          <img src={require ("../../images/vedios/impact.gif")} alt="" class="img-fluid" />
          </div>
       </div>
     </div>
@@ -130,7 +130,7 @@ function FrichCaseStudy() {
       <div class="section cc-cta grow-business-sec">
         <div class="container ">
           <div class="hero-sec-bg-video">
-            <video class="video-tag is-visible is-playing" autoplay="" muted="" loop="" poster="./images/services-bg.jpg">
+            <video class="video-tag is-visible is-playing" autoplay="" muted="" loop="" poster={require("..//../images/footer-bg.webp")}>
               <source src="videos/frichs.mp4" type="video/mp4" />
             </video>
           </div>
@@ -154,6 +154,7 @@ function FrichCaseStudy() {
           </div>
         </div>
       </div>
+      <Footer/>
       </>
   )
 }

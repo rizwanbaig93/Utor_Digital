@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from "../..//../Components/Footer/Footer";
 
 export default function KorneezCaseStudy() {
   return (
@@ -39,13 +40,13 @@ export default function KorneezCaseStudy() {
       </div>
       <div class="col-md-6">
         <div class="umile-intro d-flex justify-content-center align-items-center" data-aos="fade-up">
-         {/* <img src="images/vedios/problem-solving.gif" alt=""> */}
+        <img src={require ("../../images/vedios/problem-solving.gif")} alt="" />
         </div>
       </div>
       
       <div class="col-md-6">
         <div class="umile-intro d-flex justify-content-center align-items-center" data-aos="fade-right">
-          {/* <img src="images/vedios/mobile-dev.gif" alt="" class="img-fluid"> */}
+        <img src={require ("../../images/vedios/mobile-dev.gif")} alt="" class="img-fluid" />
          </div>
       </div>
       <div class="col-md-6 mobile-app">
@@ -116,7 +117,7 @@ export default function KorneezCaseStudy() {
       </div>
       <div class="col-md-6">
         <div class="umile-intro impact-gif" data-aos="fade-up">
-          {/* <img src="images/vedios/impact.gif" alt="" class="img-fluid"> */}
+        <img src={require ("../../images/vedios/impact.gif")} alt="" class="img-fluid" />
          </div>
       </div>
     </div>
@@ -126,7 +127,7 @@ export default function KorneezCaseStudy() {
       <div class="section cc-cta grow-business-sec">
         <div class="container ">
           <div class="hero-sec-bg-video">
-            <video class="video-tag is-visible is-playing" autoplay="" muted="" loop="" poster="./images/services-bg.jpg">
+            <video class="video-tag is-visible is-playing" autoplay="" muted="" loop="" poster={require("..//../images/footer-bg.webp")}>
               <source src="images/vedios/foodle.mp4" type="video/mp4" />
             </video>
           </div>
@@ -149,6 +150,7 @@ export default function KorneezCaseStudy() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   )
 }
