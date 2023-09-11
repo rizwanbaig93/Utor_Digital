@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Header/Navbar';
 import IT_Starategy_Img from "../images/services/it-starategy.png";
 import Footer from '../../Components/Footer/Footer';
+import { NavLink } from 'react-router-dom';
 
 export default function Services () {
   return (
@@ -31,8 +32,8 @@ export default function Services () {
               with vast experience in IoT System Integration for small and large
               enterprises.
           </div>
-          <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+          <div class="text-block-4 pb-0">
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
         <div class="div-block div-block-2" data-aos="zoom-in-down">
@@ -47,7 +48,7 @@ export default function Services () {
             preferences, efficiently optimized, and tweaked to perfection.
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
 
@@ -63,7 +64,7 @@ export default function Services () {
             design and development solutions.
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
 
@@ -79,7 +80,7 @@ export default function Services () {
             accessibility.
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
 
@@ -95,7 +96,7 @@ export default function Services () {
               point to provide you with the technology that best suits you.
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
 
@@ -111,7 +112,7 @@ export default function Services () {
               smooth and seamless user experiences.
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
 
@@ -127,7 +128,7 @@ export default function Services () {
             the ideal genre in QA.
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
     
@@ -143,7 +144,7 @@ export default function Services () {
             and deployment to quality control and support.
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
 
@@ -161,7 +162,7 @@ export default function Services () {
             Service (SQS), and Amazon AppFlow.
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
     
@@ -179,7 +180,7 @@ export default function Services () {
             afford and focus on hiring a complete staff for...
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
 
@@ -196,7 +197,7 @@ export default function Services () {
             and drive sustainable growth.
           </div>
           <div  class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
         <div class="div-block div-block-3" data-aos="zoom-in-left">
@@ -211,7 +212,7 @@ export default function Services () {
             success in the digital age.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
         <div class="div-block div-block-4" data-aos="fade-left">
@@ -227,7 +228,7 @@ export default function Services () {
             drive growth in today's competitive landscape.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
         <div class="div-block div-block-5" data-aos="zoom-in-down">
@@ -241,7 +242,7 @@ export default function Services () {
             driving growth through flexible cloud technologies.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
         <div id="" class="div-block div-block-5" data-aos="zoom-in-up">
@@ -257,7 +258,7 @@ export default function Services () {
             digital landscape.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
         <div id="" class="div-block div-block-5" data-aos="fade-down">
@@ -271,7 +272,7 @@ export default function Services () {
             valuable insights and driving innovation for your business.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
         <div id="" class="div-block div-block-5" data-aos="fade-left">
@@ -286,7 +287,7 @@ export default function Services () {
             presence.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
         <div id="" class="div-block div-block-5" data-aos="fade-right">
@@ -303,7 +304,7 @@ export default function Services () {
             efficiency.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link ff-Acme"> Learn More → </a>
+            <NavLink to="/contact" target="_blank" class="link ff-Acme"> Learn More → </NavLink>
           </div>
         </div>
       </div>

@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../Components/Header/Navbar';
 import Footer from "../../Components/Footer/Footer"
+import BusinessVideo from '../GrowBusinessVideo/BusinessVideo';
 
 export default function About () {
   return (
@@ -307,37 +308,7 @@ export default function About () {
       </div>
 
       {/* <!-- grow your business --> */}
-        <div class="section cc-cta grow-business-sec ">
-          <div class="container ">
-            <div class="hero-sec-bg-video">
-              <video class="video-tag is-visible is-playing" autoplay="" muted="" loop="" poster="./images/services-bg.jpg">
-                <source src="https://dpxvvh5ebrof7.cloudfront.net/86cd5f8e-9e4e-4cb9-8183-45352a35ab74.mp4" type="video/mp4" />
-                {/* <!-- <source src="./videos/intro-video.mp4" type="video/mp4"> --> */}
-              </video>
-            </div>
-            <div class="cta-wrap">
-              <div class="custom-slide-in" data-aos="fade-down-right">
-                <div class="cta-text section-title hide-slide">
-                  <div class="label heading-2 testimonial-label" data-aos="zoom-out">
-                    Grow your business.<br />
-                  </div>
-                  <div class="paragraph-bigger cc-bigger-light ff-poppins" data-aos="zoom-out-left">
-                    Whether you are looking to automate your existing workflow with
-                    state-of-the-art technology or need a better alternative to your
-                    existing automated system.<br />
-                  </div>
-                  <div data-w-id="2edbe9ca-babc-f4c1-b329-b1ec47b4ec9e" class="mgbutton_wrapper grow-business-btn">
-                    <div class="custom-btn" data-aos="zoom-out-down"> <span></span> <span></span> <span></span> <span></span>
-                      <a href="contact.html" class="link button viewallbtn">
-                        <div class="text-block">Contact Us</div>
-                      </a></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+       <BusinessVideo/>
         <Footer/>
   </>
   )

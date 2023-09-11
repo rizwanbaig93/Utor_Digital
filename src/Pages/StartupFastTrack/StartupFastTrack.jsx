@@ -10,12 +10,15 @@ function StartupFastTrack () {
     <Navbar/>
    
     <div class="section cc-store-home-wrap startup-page">
-    <div data-delay="3000" data-animation="slide" class="" data-autoplay="true" data-easing="ease"
+    <div data-delay="3000" data-animation="slide" class="Startup_BgImg" data-autoplay="true" data-easing="ease"
       data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="5"
       data-duration="500" data-infinite="true" >
       <div class="w-slider-mask">
         <div class="slide1 w-slide startup-track-main">
-          <div id="particles-js">
+          <div id="" class="">
+            <div class="Overlay">
+              
+            </div>
           </div>
           <div data-w-id="063e3bf9-2744-8c7c-aed4-c8397ea3ebe9" class="">
             <div class="intro-content  container">
@@ -74,7 +77,7 @@ function StartupFastTrack () {
           <div class="item">
             <div class="bg-radil" data-aos="fade-up-left" >
               <div class="testimonial-person-wrap stories-img">
-                <img src={require ("../images/1651581562810.jpg")} data-aos="fade-left"  loading="lazy" sizes="82px" srcset=" " alt="" class="testimonial-image" />
+                <img src={require ("../images/1651581562810.webp")} data-aos="fade-left"  loading="lazy" sizes="82px" srcset=" " alt="" class="testimonial-image" />
                 <div class="person-name" data-aos="fade-right" >
                   <div class="text-block-2 swvldiv ff-Unbounded">Shashi Shekhar Singh</div>
                   <div class="text-block-3 ff-Acme">Director of Operations SWVL</div>
@@ -91,7 +94,7 @@ function StartupFastTrack () {
           <div class="item" data-aos="fade-up" >
             <div class="bg-radil Hala">
               <div class="testimonial-person-wrap">
-                <img src={require ("../images/1629959460837-removebg-preview-removebg-preview.png")} data-aos="fade-left"  loading="lazy" alt=""
+                <img src={require ("../images/1629959460837-removebg-preview-removebg-preview.webp")} data-aos="fade-left"  loading="lazy" alt=""
                   class="testimonial-image" />
                 <div class="person-name" data-aos="fade-right" >
                   <div class="text-block-2 ff-Unbounded">Mohamed Amine Bilarbi</div>
@@ -108,7 +111,7 @@ function StartupFastTrack () {
           <div class="item" data-aos="fade-right" >
             <div class=" bg-radil Frich">
               <div class="testimonial-person-wrap">
-                <img src={require ("../images/6d236c05-32c5-4ccf-ad22-2bb4500a87f8_thumb.jpg")} data-aos="fade-right"  loading="lazy" alt=""
+                <img src={require ("../images/6d236c05-32c5-4ccf-ad22-2bb4500a87f8_thumb.webp")} data-aos="fade-right"  loading="lazy" alt=""
                   class="testimonial-image frichuser" />
                 <div class="person-name" data-aos="fade-left" >
                   <div class="text-block-2 frich_text ff-Unbounded">Aleksendra Medina</div>
@@ -191,7 +194,7 @@ function StartupFastTrack () {
             <div class="inner_container">
               <div class="animateblock"></div>
               <div class="img-div"> 
-              <img src={require ("../images/IoT-Icon.png")} width="155" sizes="155px" alt="" class="service-icon" />
+              <img src={require ("../images/IoT-Icon.webp")} width="155" sizes="155px" alt="" class="service-icon" />
               </div>
               <div class="paragraph-bigger ff-Unbounded launch-card product-card">Product Ideation and Conceptualization</div>
               <strong class="paragraph-bigger sub-heading ff-Acme launch-card ">Unlock the Potential of IoT</strong>
@@ -207,7 +210,7 @@ function StartupFastTrack () {
             <div class="inner_container">
               <div class="animateblock"></div>
               <div class="img-div"> 
-              <img src={require ("../images/Software-solution.png")} width="155" sizes="155px" srcset="" alt="" class="service-icon" />
+              <img src={require ("../images/Software-solution.webp")} width="155" sizes="155px" srcset="" alt="" class="service-icon" />
                 </div>
               <div class="paragraph-bigger ff-Unbounded product-card launch-card">Minimum Viable Product (MVP) Development</div>
               <div class="paragraph-light ff-poppins">
@@ -222,7 +225,7 @@ function StartupFastTrack () {
             <div class="inner_container">
               <div class="animateblock"></div>
               <div class="img-div">
-                <img src={require ("../images/Web-Development.png")} width="155" sizes="155px" srcset="" class="service-icon" />
+                <img src={require ("../images/Web-Development.webp")} width="155" sizes="155px" srcset="" class="service-icon" />
                 </div>
               <div class="paragraph-bigger ff-Unbounded launch-card">User Experience (UX) Design</div>
               <div class="paragraph-light ff-poppins">
@@ -237,7 +240,7 @@ function StartupFastTrack () {
             <div class="inner_container">
               <div class="animateblock"></div>
               <div class="img-div"> 
-              <img src={require ("../images/ui-design.png")} width="155" sizes="155px" srcset="" class="service-icon" />
+              <img src={require ("../images/ui-design.webp")} width="155" sizes="155px" srcset="" class="service-icon" />
                 </div>
               <div class="paragraph-bigger ff-Unbounded launch-card">
                 Technology Stack Selection
@@ -253,7 +256,7 @@ function StartupFastTrack () {
             <div class="inner_container">
               <div class="animateblock"></div>
               <div class="img-div">
-                 <img src={require ("../images/prototype.png")} width="155" sizes="155px" srcset="" class="service-icon" />
+                 <img src={require ("../images/prototype.webp")} width="155" sizes="155px" srcset="" class="service-icon" />
                 </div>
               <div class="paragraph-bigger ff-Unbounded product-card"> Prototyping and Iterative Development</div>
               <div class="paragraph-light ff-poppins">
@@ -267,7 +270,7 @@ function StartupFastTrack () {
             <div class="inner_container">
               <div class="animateblock"></div>
               <div class="img-div">
-                <img src={require ("../images/consulting-1.png")} width="155" sizes="155px" srcset="" class="service-icon" />
+                <img src={require ("../images/consulting-1.webp")} width="155" sizes="155px" srcset="" class="service-icon" />
                 </div>
               <div class="paragraph-bigger ff-Unbounded launch-card">Quality Assurance and Testing
               </div>

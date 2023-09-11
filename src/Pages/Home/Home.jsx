@@ -1,48 +1,8 @@
 import React from 'react'
-// import Video from '../../Components/Video/Video'
+import { NavLink } from 'react-router-dom';
 import Navbar from '../../Components/Header/Navbar';
-import GetStart from "../images/get-start.jpg";
-import developdebug from "../images/develop-debug.jpg";
-import sysdesigining from "../images/sys-desigining.jpg";
-import deliveredImage from "../images/delivered.jpg";
-import Azure from "../images/technology-icons/azure.png";
-import DotNet from "../images/technology-icons/dot-net.png";
-import Aws from "../images/technology-icons/aws.png";
-import Flutter from "../images/technology-icons/flutter.png";
-import Angular from "../images/technology-icons/angular.png";
 import Footer from '../../Components/Footer/Footer';
-import Swvll from "../images/swvll-logo.svg";
-import Frich from "../images/Frich-logo.png";
-import Halahi from "../images/hala.svg";
-import Kwd from "../images/client-logos/KWD.png";
-import Bharti from "../images/client-logos/Bharti.png";
-import Grit from "../images/client-logos/Grait.png";
-import Beyond from "../images/client-logos/Beyond.png";
-import Foodle from "../images/client-logos/Foodle.png";
-import Lucy from "../images/client-logos/Lucy.png";
-import Rff from "../images/client-logos/RRF.png";
-import TaxiVan from "../images/client-logos/Taxi Vans.png";
-import Umile from "../images/client-logos/Umile.png";
-import Zealous from "../images/client-logos/Zealous.png";
-import TestimonialImg1 from "../images/1651581562810.jpg";
-import TestimonialImg2 from "../images/1629959460837-removebg-preview-removebg-preview.png";
-import TestimonialImg3 from "../images/6d236c05-32c5-4ccf-ad22-2bb4500a87f8_thumb.jpg";
-import TestimonialImg4 from "../images/katrin-kaurov-611298-fit-removebg-preview-removebg-preview.jpg";
-import FlutterImg from "../images/technology-icons/flutter.png";
-import AngularImg from "../images/technology-icons/angular.png";
-import ReactImg from "../images/technology-icons/react.png";
-import AzureImg from "../images/technology-icons/azure.png";
-import AwsImg from "../images/technology-icons/aws.png";
-import FigmaImg from "../images/figma-logo.png";
-import WpImg from "../images/technology-icons/wp.png";
-import IllustratorImg from "../images/illustrator-logo.png";
-import PhotoshopImg from "../images/photoshop-logo.png";
-import HtmlImg from "../images/html-logo.png";
-import AfterEffectImg from "../images/after-effect-logo.png";
-import InDesignImg from "../images/in-design.png";
-import CssImg from "../images/css-logo.png";
-import SassImg from "../images/sass.png";
-import DotNetImg from "../images/technology-icons/dot-net.png";
+import BusinessVideo from '../GrowBusinessVideo/BusinessVideo';
 
 
 
@@ -94,9 +54,9 @@ function Home () {
       Our Happy Clients
     </h2>
     <div data-w-id="ae26c204-33eb-a28a-97e7-d663c1ab3b97" class="mgbutton_wrapper p-0 pt-1  ">
-      <div class="custom-btn" data-aos="zoom-out-down"> <span></span> <span></span> <span></span> <span></span> <a
+      <div class="custom-btn custom_btn_hover" data-aos="zoom-out-down"> <span></span> <span></span> <span></span> <span></span> <a
           href="contact.html" class="link button viewallbtn">
-          <div class="text-block">Contact Us</div>
+          <div class="text-block ">Contact Us</div>
         </a></div>
     </div>
 
@@ -104,67 +64,67 @@ function Home () {
       <div id="client-logos" class="owl-carousel text-center">
         <div class="item" data-aos="zoom-in-left">
           <div class="client-inners">
-            <img src={Swvll}  alt="" />
+            <img src={require("../images/swvll-logo.svg")}  alt="" />
           </div>
         </div>
         <div class="item" data-aos="zoom-in-right">
           <div class="client-inners">
-            <img src={Frich} alt="" />
+            <img src={require("../images/Frich-logo.webp")} alt="" />
           </div>
         </div>
         <div class="item" data-aos="zoom-out-up">
           <div class="client-inners">
-            <img src={Halahi} alt="" />
+            <img src={require("../images/Halahi.webp")} alt="" />
           </div>
         </div>
         <div class="item" data-aos="zoom-out-down">
           <div class="client-inners">
-            <img src={Kwd} alt="KWD Logo" />
+            <img src={require("../images/client-logos/KWD.webp")} alt="KWD Logo" />
           </div>
         </div>
         <div class="item" data-aos="zoom-out-right">
           <div class="client-inners">
-            <img src={Bharti} alt="Bharti Logo" />
+            <img src={require("../images/client-logos/Bharti.webp")} alt="Bharti Logo" />
           </div>
         </div>
         <div class="item" data-aos="zoom-out-left">
           <div class="client-inners">
-            <img src={Grit} alt="Grait Logo" />
+            <img src={require("../images/client-logos/Grait.webp")} alt="Grait Logo" />
           </div>
         </div>
         <div class="item" data-aos="zoom-out-left">
           <div class="client-inners beyound-logo">
-            <img src={Beyond} alt="Beyond Logo" />
+            <img src={require("../images/client-logos/Beyond.webp")} alt="Beyond Logo" />
           </div>
         </div>
         <div class="item" data-aos="zoom-out-right">
           <div class="client-inners">
-            <img src={Foodle} alt="Foodle Logo" />
+            <img src={require("../images/client-logos/Foodle.webp")} alt="Foodle Logo" />
           </div>
         </div>
         <div class="item" data-aos="zoom-out-up">
           <div class="client-inners">
-            <img src={Lucy} alt="Lucy Logo" />
+            <img src={require("../images/client-logos/Lucy.webp")} alt="Lucy Logo" />
           </div>
         </div>
         <div class="item" data-aos="zoom-out-down">
           <div class="client-inners">
-            <img src={Rff} alt="RRF Logo" />
+            <img src={require("../images/client-logos/RRF.webp")} alt="RRF Logo" />
           </div>
         </div>
         <div class="item">
           <div class="client-inners">
-            <img src={TaxiVan} alt="Taxi Vans Logo" />
+            <img src={require("../images/client-logos/Taxi Vans.webp")} alt="Taxi Vans Logo" />
           </div>
         </div>
         <div class="item">
           <div class="client-inners">
-            <img src={Umile} alt="Umile Logo" />
+            <img src={require("../images/client-logos/Umile.webp")} alt="Umile Logo" />
           </div>
         </div>
         <div class="item">
           <div class="client-inners">
-            <img src={Zealous} alt="Zealous Logo" />
+            <img src={require("../images/client-logos/Zealous.webp")} alt="Zealous Logo" />
           </div>
         </div>
       </div>
@@ -230,7 +190,7 @@ function Home () {
           </div>
           <div class="col-lg-6 d-flex align-items-center justify-content-end">
             <div class="tab-item-single-img" data-aos="zoom-out-right">
-            <img src={GetStart} alt="" />
+            <img src={require("../images/get-start.webp")} alt="" />
 
             </div>
           </div>
@@ -283,7 +243,7 @@ function Home () {
           </div>
           <div class="col-lg-6 d-flex align-items-center justify-content-end">
             <div class="tab-item-single-img" data-aos="zoom-out-right">
-              <img src={sysdesigining} alt="tab-img"/>
+              <img src={require("../images/sys-desigining.webp")} alt="tab-img"/>
             </div>
           </div>
         </div>
@@ -332,7 +292,7 @@ function Home () {
           </div>
           <div class="col-lg-6 d-flex align-items-center justify-content-end">
             <div class="tab-item-single-img" data-aos="zoom-in-left">
-              <img src={developdebug} alt="tab-img" />
+              <img src={require("../images/develop-debug.webp")} alt="tab-img" />
             </div>
           </div>
         </div>
@@ -380,7 +340,7 @@ function Home () {
           </div>
           <div class="col-lg-6 d-flex align-items-center justify-content-end">
             <div class="tab-item-single-img" data-aos="zoom-out-left">
-              <img src={deliveredImage} alt="tab-img" />
+              <img src={require("../images/delivered.webp")} alt="tab-img" />
             </div>
           </div>
         </div>
@@ -389,15 +349,14 @@ function Home () {
   </section>
   <div class="our-service-sec">
     <div class="default-animation">
-      <div class="shape-img1" data-aos="zoom-out-right"><img src={Azure}
-          alt="Animation icon 1" /></div>
-      <div class="shape-img2" data-aos="zoom-out-down"><img src={DotNet}
+      <div class="shape-img1" data-aos="zoom-out-right"><img src={require("../images/technology-icons/azure.webp")} alt="Animation icon 1" /></div>
+      <div class="shape-img2" data-aos="zoom-out-down"><img src={require("../images/technology-icons/dot-net.webp")}
           alt="Animation icon 2" /></div>
-      <div class="shape-img3" data-aos="zoom-out-up"><img src={Aws}
+      <div class="shape-img3" data-aos="zoom-out-up"><img src={require("../images/technology-icons/aws.webp")}
           alt="Animation icon 3" /></div>
-      <div class="shape-img4" data-aos="zoom-out-left"><img src={Flutter}
+      <div class="shape-img4" data-aos="zoom-out-left"><img src={require("../images/technology-icons/flutter.webp")}
           alt="Animation icon 4" /></div>
-      <div class="shape-img5" data-aos="zoom-in-down"><img src={Angular}
+      <div class="shape-img5" data-aos="zoom-in-down"><img src={require("../images/technology-icons/angular.webp")}
           alt="Animation icon 5" /></div>
     </div>
     <div class="container ourservices">
@@ -419,10 +378,7 @@ function Home () {
       <div class="w-layout-grid our-services-grid margin-top-40">
         <div id="w-node-deebbad6-1307-0d30-3a46-d875e4018a80-6b5e90c3" class="div-block" data-aos="zoom-out-right">
           <div class="img-div">
-            <img src="images/IoT-Icon.png" width="155" sizes="155px" srcset="
-                  images/IoT-Icon-p-500.png 500w,
-                  images/IoT-Icon.png       512w
-                " alt="" class="service-icon" />
+            <img src={require("../images/IoT-Icon.webp")} width="155" sizes="155px" srcset="" alt="" class="service-icon" />
           </div>
           <div class="paragraph-bigger custom-font line-height">
             Development for disruptive technologies
@@ -435,16 +391,13 @@ function Home () {
             innovation and success.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link"> Read More → </a>
+            <NavLink to="/contact" class="link"> Read More → </NavLink>
           </div>
         </div>
         <div id="w-node-deebbad6-1307-0d30-3a46-d875e4018a86-6b5e90c3" class="div-block div-block-2"
           data-aos="zoom-out-left">
           <div class="img-div">
-            <img src="images/Software-solution.png" width="155" sizes="155px" srcset="
-                  images/Software-solution-p-500.png 500w,
-                  images/Software-solution.png       512w
-                " alt="" class="service-icon" />
+            <img src={require("../images/Software-solution.webp")} width="155" sizes="155px" srcset="" alt="" class="service-icon" />
           </div>
           <div class="paragraph-bigger custom-font launch-card">Design & Launch your MVP</div>
           <div class="paragraph-light">
@@ -453,16 +406,13 @@ function Home () {
             accelerate time to market for your groundbreaking product
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link"> Read More → </a>
+          <NavLink to="/contact" class="link"> Read More → </NavLink>
           </div>
         </div>
         <div id="w-node-deebbad6-1307-0d30-3a46-d875e4018a8c-6b5e90c3" class="div-block div-block-3"
           data-aos="zoom-out-up">
           <div class="img-div">
-            <img src="images/Web-Development.png" width="155" sizes="155px" srcset="
-                  images/Web-Development-p-500.png 500w,
-                  images/Web-Development.png       512w
-                " alt="" class="service-icon" />
+            <img src={require("../images/Web-Development.webp")} width="155" sizes="155px" srcset=" " alt="" class="service-icon" />
           </div>
           <div class="paragraph-bigger custom-font launch-card">Business Intelligence Consulting</div>
           <div class="paragraph-light">
@@ -473,14 +423,16 @@ function Home () {
             your business.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <a href="contact.html" class="link"> Read More → </a>
+          <NavLink to="/contact" class="link"> Read More → </NavLink>
           </div>
         </div>
       
       </div>
       <div data-w-id="5722a384-1111-d9da-7f96-bff6449c16ad" class="mgbutton_wrapper view-btn p-0">
-        <div class="custom-btn"> <span></span> <span></span> <span></span> <span></span> <a href="services.html"
-            class="link button viewallbtn">View All</a></div>
+        <div class="custom-btn custom_btn_hover" > <span></span> <span></span> <span></span> <span></span>
+         <a href="/services"
+            class="link button viewallbtn text-block">View All</a>
+            </div>
       </div>
     </div>
   </div>
@@ -493,7 +445,7 @@ function Home () {
         <div class="item mt-2">
           <div class="bg-radil">
             <div class="testimonial-person-wrap stories-img">
-              <img src={TestimonialImg1} loading="lazy" sizes="82px" srcset=" " alt="" class="testimonial-image" />
+              <img src={require("../images/1651581562810.webp")} loading="lazy" sizes="82px" srcset=" " alt="" class="testimonial-image" />
               <div class="person-name">
                 <div class="text-block-2 swvldiv ff-poppins">Shashi Shekhar Singh</div>
                 <div class="text-block-3 ff-poppins">Director of Operations SWVL</div>
@@ -510,7 +462,7 @@ function Home () {
         <div class="item mt-2">
           <div class="bg-radil Hala">
             <div class="testimonial-person-wrap">
-              <img src={TestimonialImg2} loading="lazy" alt=""
+              <img src={require("../images/1629959460837-removebg-preview-removebg-preview.webp")} loading="lazy" alt=""
                 class="testimonial-image" />
               <div class="person-name">
                 <div class="text-block-2 ff-poppins">Mohamed Amine Bilarbi</div>
@@ -527,7 +479,7 @@ function Home () {
         <div class="item mt-2">
           <div class=" bg-radil Frich">
             <div class="testimonial-person-wrap">
-              <img src={TestimonialImg3} loading="lazy" alt=""
+              <img src={require("../images/6d236c05-32c5-4ccf-ad22-2bb4500a87f8_thumb.webp")} loading="lazy" alt=""
                 class="testimonial-image frichuser" />
               <div class="person-name">
                 <div class="text-block-2 frich_text ff-poppins">Aleksendra Medina</div>
@@ -547,7 +499,7 @@ function Home () {
         <div class="item mt-2">
           <div class="bg-radil Frich">
             <div class="testimonial-person-wrap">
-              <img src={TestimonialImg4} loading="lazy" alt=""
+              <img src={require("../images/katrin-kaurov-611298-fit-removebg-preview-removebg-preview.webp")} loading="lazy" alt=""
                 class="testimonial-image" />
               <div class="person-name">
                 <div class="text-block-2 frich_text ff-poppins">Katrin Kaurov</div>
@@ -566,37 +518,8 @@ function Home () {
       </div>
     </div>
   </div>
-  <div class="section cc-cta grow-business-sec ">
-    <div class="container ">
-      <div class="hero-sec-bg-video">
-        <video class="video-tag is-visible is-playing" loop autoPlay muted poster="./images/services-bg.jpg">
-               {/* <video src="https://dpxvvh5ebrof7.cloudfront.net/ac954200-3ffa-46fb-b8c1-af81d1b7556f.mp4" type="video/mp4" data-aos="zoom-in-left" /> */}
-              <source src="https://dpxvvh5ebrof7.cloudfront.net/86cd5f8e-9e4e-4cb9-8183-45352a35ab74.mp4" type="video/mp4" />
-            </video>
-      </div>
-      <div class="cta-wrap">
-        <div class="custom-slide-in" data-aos="fade-down-right">
-          <div class="cta-text section-title hide-slide">
-            <div class="label heading-2 testimonial-label" data-aos="zoom-out">
-              Grow your business.<br />
-            </div>
-            <div class="paragraph-bigger custom-font cc-bigger-light ff-poppins" data-aos="zoom-out-left">
-              Whether you are looking to automate your existing workflow with
-              state-of-the-art technology or need a better alternative to your
-              existing automated system.<br />
-            </div>
-            <div data-w-id="2edbe9ca-babc-f4c1-b329-b1ec47b4ec9e" class="mgbutton_wrapper grow-business-btn">
-              <div class="custom-btn" data-aos="zoom-out-down"> <span></span> <span></span> <span></span> <span></span>
-                <a href="contact.html" class="link button viewallbtn">
-                  <div class="text-block">Contact Us</div>
-                </a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
- 
+<BusinessVideo/>
+
   {/* <!-- tech stack starts  --> */}
   <div class="tech-stack-sec tab-area">
     {/* <!-- <div id="particles-js2">
@@ -611,7 +534,7 @@ function Home () {
       <div class="tech-stacks-list owl-carousel text-center" id="techStacks">
         <div class="tech tech-1 flutter item">
           <div class="tech-icon" data-aos="zoom-in-right" data-aos-duration="1000" data-delay="3000">
-            <img src={FlutterImg} alt="Flutter Icon" />
+            <img src={require("../images/technology-icons/flutter.webp")} alt="Flutter Icon" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">Flutter</h4>
@@ -620,7 +543,7 @@ function Home () {
         {/* <!-- flutter --> */}
         <div class="tech tech-1 angular item">
           <div class="tech-icon" data-aos="zoom-in-right" data-aos-duration="1200" data-delay="3500">
-            <img src={AngularImg} alt="Angular Icon" />
+            <img src={require("../images/technology-icons/angular.webp")} alt="Angular Icon" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">Angular</h4>
@@ -629,7 +552,7 @@ function Home () {
         {/* <!-- Angular --> */}
         <div class="tech tech-1 react item">
           <div class="tech-icon" data-aos="zoom-in-right" data-aos-duration="1500" data-delay="4000">
-            <img src={ReactImg} alt="React Icon" />
+            <img src={require("../images/technology-icons/react.webp")} alt="React Icon" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">React</h4>
@@ -638,7 +561,7 @@ function Home () {
         {/* <!-- React --> */}
         <div class="tech tech-1 dotNet item">
           <div class="tech-icon" data-aos="zoom-out-right" data-aos-duration="1800" data-delay="4300">
-            <img src={DotNetImg} alt="DotNet Icon" />
+            <img src={require("../images/technology-icons/dot-net.webp")} alt="DotNet Icon" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">DotNet</h4>
@@ -648,7 +571,7 @@ function Home () {
 
         <div class="tech tech-1 azure item">
           <div class="tech-icon" data-aos="zoom-out-right" data-aos-duration="2000" data-delay="4500">
-            <img src={AzureImg} alt="Azure Icon" />
+            <img src={require("../images/technology-icons/azure.webp")} alt="Azure Icon" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">Azure</h4>
@@ -657,7 +580,7 @@ function Home () {
         {/* <!-- Azure --> */}
         <div class="tech tech-1 aws item">
            <div class="tech-icon" data-aos="zoom-out-right" data-aos-duration="2200" data-delay="4800">
-            <img src={AwsImg} alt="AWS Icon" />
+            <img src={require("../images/technology-icons/aws.webp")} alt="AWS Icon" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">AWS</h4>
@@ -666,7 +589,7 @@ function Home () {
         {/* <!-- AWS --> */}
         <div class="tech tech-1 google-cloud item">
           <div class="tech-icon" data-aos="zoom-out-right" data-aos-duration="2400" data-delay="5000">
-            <img src={FigmaImg} alt="figma" />
+            <img src={require("../images/figma-logo.webp")} alt="figma" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">Figma</h4>
@@ -675,7 +598,7 @@ function Home () {
         {/* <!-- Google Cloud --> */}
         <div class="tech tech-1 wordpress item">
           <div class="tech-icon" data-aos="zoom-out-right" data-aos-duration="2600" data-delay="5200">
-            <img src={WpImg} alt="Wordpress Icon" />
+            <img src={require("../images/technology-icons/wp.webp")} alt="Wordpress Icon" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">Wordpress</h4>
@@ -684,7 +607,7 @@ function Home () {
         {/* <!-- Wordpress --> */}
         <div class="tech tech-1 google-cloud item">
           <div class="tech-icon" data-aos="zoom-out-right" data-aos-duration="2800" data-delay="5500">
-            <img src={IllustratorImg} alt="Adobe Illustrator" />
+            <img src={require("../images/illustrator-logo.webp")} alt="Adobe Illustrator" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">Illustrator</h4>
@@ -693,7 +616,7 @@ function Home () {
         {/* <!-- Google Cloud --> */}
         <div class="tech tech-1 google-cloud item">
           <div class="tech-icon" data-aos="zoom-out-right" data-aos-duration="2800" data-delay="5500">
-            <img src={PhotoshopImg} alt="Photoshop" />
+            <img src={require("../images/photoshop-logo.webp")} alt="Photoshop" />
           </div>
           <div class="tech-title" data-aos="zoom-out-right">
             <h4 class="ff-Acme">Photoshop</h4>
@@ -702,7 +625,7 @@ function Home () {
            {/* <!--htlm --> */}
            <div class="tech tech-1 google-cloud item">
             <div class="tech-icon" data-aos="zoom-out-right">
-              <img src={HtmlImg} alt="html" />
+              <img src={require("../images/html-logo.webp")} alt="html" />
             </div>
             <div class="tech-title" >
               <h4 class="ff-Acme">HTML</h4>
@@ -711,7 +634,7 @@ function Home () {
         {/* <!-- Google Cloud --> */}
         <div class="tech tech-1 google-cloud item">
           <div class="tech-icon" data-aos="fade-up-left">
-            <img src={AfterEffectImg} alt="After Effects" />
+            <img src={require("../images/after-effect-logo.webp")} alt="After Effects" />
           </div>
           <div class="tech-title">
             <h4 class="ff-Acme">After Effects</h4>
@@ -720,7 +643,7 @@ function Home () {
         {/* <!-- Google Cloud --> */}
         <div class="tech tech-1 google-cloud item">
           <div class="tech-icon" data-aos="fade-up-left">
-            <img src={InDesignImg} alt="InDesign" />
+            <img src={require("../images/in-design.webp")} alt="InDesign" />
           </div>
           <div class="tech-title">
             <h4 class="ff-Acme">InDesign</h4>
@@ -730,7 +653,7 @@ function Home () {
         {/* <!-- css --> */}
         <div class="tech tech-1 google-cloud item">
           <div class="tech-icon" data-aos="fade-up-left">
-            <img src={CssImg} alt="css" />
+            <img src={require("../images/css-logo.webp")} alt="css" />
           </div>
           <div class="tech-title">
             <h4 class="ff-Acme">CSS</h4>
@@ -739,7 +662,7 @@ function Home () {
         {/* <!-- sass --> */}
         <div class="tech tech-1 google-cloud item">
           <div class="tech-icon" data-aos="fade-up-left">
-            <img src={SassImg} alt="" />
+            <img src={require("../images/sass.webp")} alt="" />
           </div>
           <div class="tech-title">
             <h4 class="ff-Acme">Sass</h4>
@@ -751,6 +674,129 @@ function Home () {
     </div>
     {/* <!-- container --> */}
   </div>
+
+  {/* <!-- ======================= Blog section starts ================= --> */}
+
+<section class="blog-section">
+
+ {/* <!-- design 5 start  --> */}
+ <div class="blog-design blog-design-5">
+<testing/>
+
+  <div class="container">
+    <div class="section-title">
+      <h2 class="heading label heading-2 testimonial-label ff-Unbounded aos-init aos-animate" data-aos="zoom-out-up">
+        Latest Blogs
+      </h2>
+    </div>
+    <div class="parent">
+       {/* blog cards 1 */}
+  <article class="card">
+      <header class="card__thumb">
+          <NavLink to=""><img src={require("../images/agile-methodology5.webp")}/></NavLink>
+      </header>
+      <date class="card__date">
+          <span class="card__date__day">11</span>
+          <br/>
+          <span class="card__date__month">Sep</span>
+      </date>
+      <div class="card__body">
+          <div class="card__category "><NavLink className='text-white' target='blank' to="/agile_development">Agile Development</NavLink></div>
+          <h2 class="card__title"><NavLink className='card_tittle_heading' to="">Introduction to Agile Development:</NavLink></h2>
+          <div class="card__subtitle"> A Paradigm Shift in Software Engineering.</div>
+          <p class="card__description">Explore the transformative world of Agile
+                  Development, a paradigm shift in software engineering. This article delves into Agile's origins, core
+                  values, and methodologies, including Scrum, Kanban, Extreme Programming (XP), and Lean.
+                  <NavLink  to="/blog"  class="learn-more-btn learn_btn"> Learn More </NavLink>
+                </p> 
+      </div>
+      <footer class="card__footer">
+      <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span><a href=""> 22
+                Minutes Read</a>
+      </footer>
+  </article>
+
+  <article class="card">
+    <header class="card__thumb">
+        <NavLink to="#"><img src={require("../images/qa-5.webp")}/></NavLink>
+    </header>
+    <date class="card__date">
+        <span class="card__date__day">15</span>
+        <br/>
+        <span class="card__date__month">Sep</span>
+    </date>
+    <div class="card__body">
+        <div class="card__category"><a className='text-white' target='blank' href="/software_testing">Software Testing</a></div>
+        <h2 class="card__title"><a className='card_tittle_heading' href="#">Best Practices for Software Testing and Quality Assurance</a></h2>
+        <div class="card__subtitle">Discover essential best practices for software testing and quality assurance
+                (QA) in the fast-paced world of software development.</div>
+        <p class="card__description">In the fast-paced world of software development,
+                  delivering a product that not only meets but exceeds user expectations is paramount. Achieving this
+                  goal requires a systematic approach to software testing and quality assurance (QA).
+                  <NavLink  to="/blog" target="_blank" class="learn-more-btn learn_btn"> Learn More </NavLink></p>
+    </div>
+    <footer class="card__footer">
+    <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span><a href=""> 32
+                Minutes Read</a>
+    </footer>
+</article>  <article class="card">
+  <header class="card__thumb">
+      <NavLink to="/blog"><img src={require("../images/cc-3.webp")} /></NavLink>
+  </header>
+  <date class="card__date">
+      <span class="card__date__day">21</span>
+      <br/>
+      <span class="card__date__month">Sep</span>
+  </date>
+  <div class="card__body">
+      <div class="card__category"><a className='text-white' target='blank' href="/cloud_computing">Cloud Computing</a></div>
+      <h2 class="card__title"><a className='card_tittle_heading' href="#">Best Practices for Unlocking the Benefits of Cloud Computing for
+                  Businesses</a></h2>
+      <div class="card__subtitle">Explore the transformative power of cloud computing for businesses and learn
+                how to leverage its advantages effectively. </div>
+      <p class="card__description">Explore performance monitoring, disaster recovery
+                  planning, training and skill development, compliance, governance, and the importance of regular
+                  evaluation and optimization in maximizing the potential of cloud technology for your business. 
+                  <NavLink  to="/blog" target="_blank" class="learn-more-btn learn_btn"> Learn More </NavLink></p>
+  </div>
+  <footer class="card__footer">
+  <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span><a href=""> 43
+                Minutes Read</a>
+  </footer>
+</article> 
+
+ <article class="card">
+  <header class="card__thumb">
+      <NavLink to="/blog"><img src={require("../images/ai-1.webp")} /></NavLink>
+  </header>
+  <date class="card__date">
+      <span class="card__date__day">28</span>
+      <br/>
+      <span class="card__date__month">Sep</span>
+  </date>
+  <div class="card__body">
+      <div class="card__category"><a className='text-white' target='blank' href="/machine_learning">Machine Learning</a></div>
+      <h2 class="card__title"><a className='card_tittle_heading' href="#">Machine Learning and AI Applications in Software Development</a></h2>
+      <div class="card__subtitle">Discover the keys to successful machine learning and AI development for
+                software solutions.</div>
+      <p class="card__description">Explore essential best practices for integrating
+                  machine learning and artificial intelligence into software development projects. Learn how to define
+                  clear objectives, ensure data quality, select the right models, and prioritize ethics and
+                  transparency.
+                  <NavLink  to="/blog" target="_blank" class="learn-more-btn learn_btn"> Learn More </NavLink></p>
+  </div>
+  <footer class="card__footer">
+  <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span><a href=""> 22
+                Minutes Read</a>
+  </footer>
+</article>
+</div>
+</div>
+</div>
+ {/* <!-- design 5 ends  --> */}
+</section>
+
+{/* <!-- ======================= Blog section ends =================== --> */}
   
   <Footer/>
   </>
