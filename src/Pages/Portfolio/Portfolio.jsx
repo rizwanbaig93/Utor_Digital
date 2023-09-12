@@ -133,7 +133,7 @@ export default function Portfolio() {
               class=" frich_block" data-aos="fade-up-right"
             >
               <img
-               src={require ("../images/umile.png")}
+               src={require ("../images/umile.webp")}
                 loading="lazy"
                 width="500"
                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 500px, (max-width: 991px) 40vw, 38vw"
@@ -157,7 +157,7 @@ export default function Portfolio() {
               class=" frich_block" data-aos="fade-up-right"
             >
               <img
-                src={require ("../images/RRF-Logo.png")}
+                src={require ("../images/RRF-Logo.webp")}
                 loading="lazy"
                 width="500"
                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 500px, (max-width: 991px) 40vw, 38vw"
@@ -213,7 +213,7 @@ through their software architecture design, web services, and mobile app develop
               class=" frich_block" data-aos="fade-up-right"
             >
               <img
-                src={require ("../images/Foodle-logo.jpg")}
+                src={require ("../images/Foodle-logo.webp")}
                 loading="lazy"
                 width="500"
                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 500px, (max-width: 991px) 40vw, 38vw"
@@ -232,7 +232,7 @@ through their software architecture design, web services, and mobile app develop
           <div class="image_block project-img">
             <div class="" data-aos="fade-right">
               <img
-                src={require ("../images/Bhartee4site.png")}
+                src={require ("../images/Bhartee4site.webp")}
                 loading="lazy"
                 data-w-id="4744c2d5-0b32-3de6-1f49-52724279cee4"
                 sizes="(max-width: 479px) 88.9375px, (max-width: 767px) 32vw, 38vw"
@@ -281,7 +281,7 @@ globally.
                       class=" osnz_block" data-aos="fade-left"
                     >
                       <img
-                        src={require ("../images/OSNZ.jpg")}
+                        src={require ("../images/OSNZ.webp")}
                         loading="lazy"
                         width="500"
                         sizes="(max-width: 479px) 100vw, (max-width: 767px) 500px, (max-width: 991px) 48vw, 38vw"
@@ -304,7 +304,7 @@ globally.
               class=" korneez_block" data-aos="fade-up"
             >
               <img
-                src={require ("../images/Korneez-1.jpg")}
+                src={require ("../images/Korneez-1.webp")}
                 loading="lazy"
                 width="493"
                 sizes="(max-width: 479px) 100vw, (max-width: 767px) 500px, (max-width: 991px) 45vw, 38vw"
@@ -331,67 +331,7 @@ globally.
       </div>
        {/* <!-- korneez_col ends --> */}
 
-     {/* <!-- adiutor_col starts  -->
-     <!-- hided this product untill recv content from hassam  -->  */}
-      {/* <div class="row d-none maobile-margin flex-directions">
-        <div class="col-md-6 portfolio-content">
-          <div class="swvl_con" data-aos="fade-up-right">
-            <h1 class="heading-2 ff-Unbounded">Adiutor<br /></h1>
-            <h5 class="heading-3 ff-Acme">Lorem Ipsum</h5>
-            <p class="ff-poppins">
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever
-              since the 1500s, when an unknown printer took a galley of type
-              and scrambled it to make a type specimen book. It has survived
-              not only five centuries,
-              <a href="" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="image_block project-img">
-            <div class="  swvl_block" data-aos="fade-up-right">
-              <img src={require ("../images/our-products/adiutor_logo.png")} loading="lazy" alt="Adiutor Logo"
-                class="image swvl_img" />
-            </div>
-          </div>
-        </div>
-      </div> */}
- 
-                      {/* <!-- hided this product untill recv content from hassam  -->
-      <!-- adiutor_col ends -->
-      <!-- eeo_col starts  --> */}
-     {/*  <div class="row d-none maobile-margin">
-        <div class="col-md-6">
-          <div class="image_block  project-img">
-            <div class="" data-aos="fade-right">
-              <img src={require ("../images/our-products/eeo-logo.jpg")} loading="lazy" alt="Easy Eat Out Logo"
-                class="image halahi_img" />
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 portfolio-content">
-          <div class=" halahi_con" data-aos="fade-left">
-            <h1 class="heading-2 ff-Unbounded">Easy Eat Out<br /></h1>
-            <h5 class="heading-3 ff-Acme">Lorem Ipsum</h5>
-            <p class="ff-poppins">
-              is simply dummy text of the printing and typesetting industry.
-              Lorem Ipsum has been the industry's standard dummy text ever
-              since the 1500s, when an unknown printer took a galley of type
-              and scrambled it to make a type specimen book. It has survived
-              not only five centuries,
-              <a href="" class="learn-more ff-poppins mt-2">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </p>
-          </div>
-        </div>
-      </div> */}
-    </div>       
-    {/* <!-- hided this product untill recv content from hassam  -->
-      <!-- eeo_col ends --> */}
-
-      {/* <!-- <div data-w-id="4744c2d5-0b32-3de6-1f49-52724279cf26" class="mgbutton_wrapper">
-    <a href="#" class="project_view_btn w-button">View All Projects →</a>
-  </div> --> */}
+    </div>     
     </div>
   <BusinessVideo/>
   </div>

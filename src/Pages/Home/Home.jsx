@@ -64,7 +64,7 @@ function Home () {
       <div id="client-logos" class="owl-carousel text-center">
         <div class="item" data-aos="zoom-in-left">
           <div class="client-inners">
-            <img src={require("../images/swvll-logo.svg")}  alt="" />
+            <img src={require("../images/swvll-logo.webp")}  alt="" />
           </div>
         </div>
         <div class="item" data-aos="zoom-in-right">

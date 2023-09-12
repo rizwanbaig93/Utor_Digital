@@ -122,7 +122,7 @@ export default function About () {
             <div class="md_col w-col w-col-6">
               <div class="team_block" data-aos="fade-down-right">
                 <div data-w-id="2439bc10-4fe6-afec-cb7f-7c76a278efd0" class="content_div aw"><img
-                    src={require ("../images/WhatsApp_Image_2023-02-15_at_15.27.15-removebg-preview-p-130x130q80.png")} loading="lazy" height="512"
+                    src={require ("../images/WhatsApp_Image_2023-02-15_at_15.27.15-removebg-preview-p-130x130q80.webp")} loading="lazy" height="512"
                     width="512" alt="" class="waheed" />
                   <div data-w-id="d3b9c85a-e4bf-7af9-e521-92a61d1250d2"  class="name_div">
                     <div class="name_text ff-Unbounded">Abdul Waheed</div>
@@ -137,7 +137,7 @@ export default function About () {
                   <div data-w-id="db2ed476-b994-be02-93b5-00393f8bda56"  class="name_div">
                     <div class="name_text ff-Unbounded">Abdullah Tariq</div>
                     <div class="desig_text ff-Acme">CEO</div>
-                  </div><img src={require ("../images/IMG_0224-p-1080.jpg")}  loading="lazy" sizes="330px" alt="" class="abdullah" />
+                  </div><img src={require ("../images/IMG_0224-p-1080.webp")}  loading="lazy" sizes="330px" alt="" class="abdullah" />
                 </div>
               </div>
             </div>
@@ -164,7 +164,7 @@ export default function About () {
         <div class="column fixed-height w-col w-col-6">
           <div class="image_block">
             <div data-w-id="4744c2d5-0b32-3de6-1f49-52724279cefa" class="image_block swvl_block ceo-sec">
-              <img src={require ("../images/CTO.png")} alt="CTO" class="" />
+              <img src={require ("../images/CTO.webp")} alt="CTO" class="" />
             </div>
           </div>
         </div>
@@ -216,7 +216,7 @@ export default function About () {
               <div class="md_col w-col w-col-4">
                 <div class="team_block">
                   <div class="global-mian-img"  data-aos="zoom-in-up">
-                    <img src={require("../images/golobal-img.png")} loading="lazy" alt="" class="" />
+                    <img src={require("../images/golobal-img.webp")} loading="lazy" alt="" class="" />
                   </div>
                 </div>
               </div>
@@ -253,7 +253,7 @@ export default function About () {
               <div class="md_col w-col w-col-3">
                 <div class="team-card" data-aos="fade-up-left">
                   <div class="card-detail" >
-                    <img src={require("../images/tech.jpg")} alt="" />
+                    <img src={require("../images/tech.webp")} alt="" />
                     <h3 class="ff-Acme">Technical Excellence</h3>
                     <p class="ff-poppins">We are committed to delivering
                       software solutions of the highest quality,
@@ -265,7 +265,7 @@ export default function About () {
               <div class="md_col w-col w-col-3">
                 <div class="team-card" data-aos="fade-down">
                   <div class="card-detail">
-                    <img src={require("../images/glasses.jpg")} alt="" />
+                    <img src={require("../images/glasses.webp")} alt="" />
                     <h3 class="ff-Acme">Innovation-driven</h3>
                     <p class="ff-poppins">We embrace innovation as the foundation
                       of our company, constantly exploring
@@ -278,7 +278,7 @@ export default function About () {
               <div class="md_col w-col w-col-3">
                 <div class="team-card" data-aos="fade-up-right">
                   <div class="card-detail">
-                    <img src={require("../images/table.jpg")} alt="" />
+                    <img src={require("../images/table.webp")} alt="" />
                     <h3 class="ff-Acme"> Collaborative Partnership</h3>
                     <p class="ff-poppins">We believe in the power of collaboration
                       and teamwork. We work closely with our
@@ -293,7 +293,7 @@ export default function About () {
               <div class="ceo_col w-col w-col-3">
                 <div class="team-card" data-aos="fade-up-left">
                   <div class="card-detail">
-                    <img src={require("../images/hands.jpg")} alt="" />
+                    <img src={require("../images/hands.webp")} alt="" />
                     <h3 class="ff-Acme">Integrity and Trust</h3>
                     <p class="ff-poppins">Our clients can confidently rely on us to consistently
                       act in their best interest, safeguard confidentiality,

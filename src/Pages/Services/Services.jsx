@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../../Components/Header/Navbar';
-import IT_Starategy_Img from "../images/services/it-starategy.png";
+import IT_Starategy_Img from "../images/services/it-starategy.webp";
 import Footer from '../../Components/Footer/Footer';
 import { NavLink } from 'react-router-dom';
 
@@ -202,7 +202,7 @@ export default function Services () {
         </div>
         <div class="div-block div-block-3" data-aos="zoom-in-left">
           <div class="img-div">
-            <img src={require ("../images/services/app-service.png")} width="155" sizes="155px"  alt="Service Icon" class="service-icon" />
+            <img src={require ("../images/services/app-service.webp")} width="155" sizes="155px"  alt="Service Icon" class="service-icon" />
           </div>
           <div class="paragraph-bigger ff-Unbounded">Application Services</div>
           <strong class="paragraph-bigger sub-heading ff-Acme">Unleash the Power of Custom Application Services</strong>
@@ -217,7 +217,7 @@ export default function Services () {
         </div>
         <div class="div-block div-block-4" data-aos="fade-left">
           <div class="img-div">
-            <img src={require ("../images/services/business-intelligence.png")} width="155" sizes="155px"  alt="Service Icon" class="service-icon" />
+            <img src={require ("../images/services/business-intelligence.webp")} width="155" sizes="155px"  alt="Service Icon" class="service-icon" />
           </div>
           <div class="paragraph-bigger ff-Unbounded">Business Intelligence Consulting</div>
           <strong class="paragraph-bigger sub-heading ff-Acme">Gain Actionable Insights with Expert Business Intelligence
@@ -233,7 +233,7 @@ export default function Services () {
         </div>
         <div class="div-block div-block-5" data-aos="zoom-in-down">
           <div class="img-div">
-            <img src={require ("../images/services/cloud-service.png")} width="155" sizes="155px" alt="Service Icon" class="service-icon" />
+            <img src={require ("../images/services/cloud-service.webp")} width="155" sizes="155px" alt="Service Icon" class="service-icon" />
           </div>
           <div class="paragraph-bigger ff-Unbounded">Cloud</div>
           <strong class="paragraph-bigger sub-heading ff-Acme">Embrace the Cloud for Business Transformation</strong>
@@ -247,7 +247,7 @@ export default function Services () {
         </div>
         <div id="" class="div-block div-block-5" data-aos="zoom-in-up">
           <div class="img-div">
-            <img src={require ("../images/services/cyber-security.png")} width="155" sizes="155px" alt="Service Icon" class="service-icon" />
+            <img src={require ("../images/services/cyber-security.webp")} width="155" sizes="155px" alt="Service Icon" class="service-icon" />
           </div>
           <div class="paragraph-bigger ff-Unbounded">Cybersecurity</div>
           <strong class="paragraph-bigger sub-heading ff-Acme">Protect Your Business with Robust Cybersecurity
@@ -263,7 +263,7 @@ export default function Services () {
         </div>
         <div id="" class="div-block div-block-5" data-aos="fade-down">
           <div class="img-div">
-            <img src={require ("../images/services/AI.png")} width="155" sizes="155px" alt="Service Icon" class="service-icon" />
+            <img src={require ("../images/services/AI.webp")} width="155" sizes="155px" alt="Service Icon" class="service-icon" />
           </div>
           <div class="paragraph-bigger ff-Unbounded">Data and Artificial Intelligence</div>
           <strong class="paragraph-bigger sub-heading ff-Acme">Empower Your Business with Data and AI Advantages</strong>
@@ -277,7 +277,7 @@ export default function Services () {
         </div>
         <div id="" class="div-block div-block-5" data-aos="fade-left">
           <div class="img-div">
-            <img src={require ("../images/services/ui-design.png")} width="155" sizes="155px"  alt="Service Icon" class="service-icon" />
+            <img src={require ("../images/services/ui-design.webp")} width="155" sizes="155px"  alt="Service Icon" class="service-icon" />
           </div>
           <div class="paragraph-bigger ff-Unbounded">User Experience Design</div>
           <strong class="paragraph-bigger sub-heading ff-Acme">Elevate User Experiences with Expert UX Design</strong>
@@ -292,7 +292,7 @@ export default function Services () {
         </div>
         <div id="" class="div-block div-block-5" data-aos="fade-right">
           <div class="img-div">
-            <img src={require ("../images/services/business-process.png")} width="155" sizes="155px"
+            <img src={require ("../images/services/business-process.webp")} width="155" sizes="155px"
              alt="Service Icon" class="service-icon" />
           </div>
           <div class="paragraph-bigger ff-Unbounded">Business Process Outsourcing</div>
