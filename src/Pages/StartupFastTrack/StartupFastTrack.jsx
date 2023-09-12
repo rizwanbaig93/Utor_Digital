@@ -1,8 +1,10 @@
+/* eslint-disable jsx-a11y/alt-text */
 
 import React from 'react'
 import Navbar from '../../Components/Header/Navbar';
 import Footer from '../../Components/Footer/Footer';
 import katrinImg from "../images/katrin-kaurov-611298-fit-removebg-preview-removebg-preview.jpg";
+import { NavLink } from 'react-router-dom';
 
 function StartupFastTrack () {
   return (
@@ -31,9 +33,9 @@ function StartupFastTrack () {
                   startup.<br />
                 </div>
                 <div class="mgbutton_wrapper cursor-pointer" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                  <a href class="button cc-jumbo-button cc-jumbo-white w-inline-block" data-aos="fade-down-left" >
+                  <NavLink className="button cc-jumbo-button cc-jumbo-white w-inline-block" data-aos="fade-down-left" >
                     <div class="ff-Acme">Discuss Your Project</div>
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -180,7 +182,7 @@ function StartupFastTrack () {
             development
             of your product</div>
           <div class="mgbutton_wrapper " data-bs-toggle="modal" data-bs-target="#exampleModal" data-aos="zoom-in-down">
-            <a class="contact_btn w-button get-touch ff-Acme">Get in Touch</a>
+            <NavLink className="contact_btn w-button get-touch ff-Acme">Get in Touch</NavLink>
           </div>
         </div>
       </div>

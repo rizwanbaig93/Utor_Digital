@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../../Components/Header/Navbar';
 import Footer from "../../Components/Footer/Footer"
 import BusinessVideo from '../GrowBusinessVideo/BusinessVideo';
+import { NavLink } from 'react-router-dom';
 
 export default function About () {
   return (
@@ -24,7 +25,7 @@ export default function About () {
                 At UtoR Digital, our mission is to empower businesses through innovative software solutions and expert IT consultancy. With a relentless focus on client success, we strive to deliver cutting-edge technology, personalized service, and strategic guidance to drive digital transformation and achieve sustainable growth.<br />
               </div>
               <div data-w-id="aaa24f20-1b31-621d-e7df-309f857d4ec6" class="mgbutton_wrapper z-index-9" data-aos="zoom-in-up">
-                <a href="contact.html" class="contact_btn w-button ff-Acme text-light contact-now">Contact Us Now</a>
+                <NavLink to="/contact" className="contact_btn w-button ff-Acme text-light contact-now">Contact Us Now</NavLink>
               </div>
             </div>
           </div>
@@ -42,7 +43,7 @@ export default function About () {
             first.<br />
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4">
-            {/* <!-- <a href="#."> Get a free quote now → </a> --> */}
+          
           </div>
           <div class="row">
             <div class="col-lg-6" data-aos="zoom-out-down">
@@ -74,7 +75,7 @@ export default function About () {
         <div class="motto-wrap">
           <div class="heading-jumbo-small label cc-light heading-2 ff-Unbounded custom-title-size" data-aos="zoom-out-right">We’re a group of creative thinkers <br /> who have
             built a business to change the world.</div>
-          {/* <!-- to be move to about page  --> */}
+
           <div class="section about-sec">
             <div class="">
               <div class="blog-heading" data-aos="zoom-in-down">
@@ -86,10 +87,9 @@ export default function About () {
                 <p class="mb-0 ff-poppins "> We believe our ideas for software innovation can be a perfect solution to nurture your
                   business by and large. </p>
                 <p class="ff-poppins "> Utor is your one stop solution to actualize your digital dreams.</p>
-                {/* <!-- <a href="contact.html" class="button-2 w-button">Get a Free Quote</a> --> */}
-                
-                    <div class="custom-btn quote-btn abut-qute-btn" > <span></span> <span></span> <span></span> <span></span> <a href="contact.html"
-                      class="link button viewallbtn ff-Acme"> Get a free quote now → </a></div>
+      
+                    <div class="custom-btn quote-btn abut-qute-btn" > <span></span> <span></span> <span></span> <span></span> 
+                    <NavLink to="/contact" className="link button viewallbtn ff-Acme"> Get a free quote now → </NavLink></div>
               </div>
             </div>
           </div>
@@ -104,8 +104,8 @@ export default function About () {
           enterprises; small or large, to perfectly meet their business needs. <br /> So they can focus on their
           business development, and let us take care of the technical aspects.</div>
         <div class="buttons_container" data-aos="fade-down">
-          <a href="projects.html" class="viewall_btn_blue w-button ff-Acme">View Projects →</a>
-          <a href="contact.html" class="viewall_btn_blue w-button ff-Acme">Contact Us</a>
+          <NavLink to="/portfolio" className="viewall_btn_blue w-button ff-Acme">View Projects →</NavLink>
+          <NavLink to="/contact" className="viewall_btn_blue w-button ff-Acme">Contact Us</NavLink>
         </div>
       </div>
     </div>
@@ -143,10 +143,10 @@ export default function About () {
             </div>
           </div>
         </div>
-        <div data-w-id="f30a9a33-f46a-5960-cf6e-c5448141f254" class="mgbutton_wrapper d-none" >
-          <div class="custom-btn" data-aos="fade-down"> <span></span> <span></span> <span></span> <span></span> <a href="services.html"
-              class="link button viewallbtn ff-Acme">View All</a></div>
-        </div>
+        {/* <div data-w-id="f30a9a33-f46a-5960-cf6e-c5448141f254" class="mgbutton_wrapper d-none" >
+          <div class="custom-btn" data-aos="fade-down"> <span></span> <span></span> <span></span> <span></span> 
+          <a href="services.html"className="link button viewallbtn ff-Acme">View All</a></div>
+        </div> */}
       </div>
     </div>
 

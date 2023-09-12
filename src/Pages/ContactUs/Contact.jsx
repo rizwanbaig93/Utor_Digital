@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 import React from 'react'
 import Navbar from '../../Components/Header/Navbar';
 import Footer from '../../Components/Footer/Footer';
 import BusinessVideo from '../GrowBusinessVideo/BusinessVideo';
+import { NavLink } from 'react-router-dom';
 
 export default function Contact() {
   return (
@@ -56,22 +58,24 @@ export default function Contact() {
                 
               </div>
               <div class="uk-office">
-                <a href="mailto:ukteam@utordigital.com?subject=You&#x27;ve%20got%20mail!"
-                  class="contact-email-link ff-poppins">ukteam@utordigital.com</a>
+                <NavLink to="mailto:ukteam@utordigital.com?subject=You&#x27;ve%20got%20mail!"
+                  className="contact-email-link ff-poppins">ukteam@utordigital.com</NavLink>
                 {/* <!-- <a href="https://utordigital.com" target="_blank" class="contact-email-link ff-poppins">utordigital.com</a> --> */}
-                <div class="paragraph-light ff-poppins contact-email-link"> <a href="tel:+447832785364">+44 115 888 2961</a></div>
+                <div class="paragraph-light ff-poppins contact-email-link"> 
+                <NavLink to="tel:+447832785364">+44 115 888 2961</NavLink></div>
                 <p class="mb-3"> <strong>Company Registration Number: 12934463</strong>  </p>
               </div>
             </div>
             <div class="details-wrap address-utor" data-aos="fade-down-left">
-              <div class="label ff-Acme"><h3>OUR UAE OFFICE</h3></div>
-              <p class="paragraph-light ff-poppins">Office 2F..17, AL SAFIYA - BLDG <br /> Hor Al Anz, Dubai, UAE</p>
+              <div className="label ff-Acme"><h3>OUR UAE OFFICE</h3></div>
+              <p className="paragraph-light ff-poppins">Office 2F..17, AL SAFIYA - BLDG <br /> Hor Al Anz, Dubai, UAE</p>
              
               <div class="uae-office">
-                <a href="mailto:info@utordigital.com?subject=You&#x27;ve%20got%20mail!"
-                  class="contact-email-link ff-poppins">info@utordigital.com</a>
+                <NavLink to="mailto:info@utordigital.com?subject=You&#x27;ve%20got%20mail!"
+                  className="contact-email-link ff-poppins">info@utordigital.com</NavLink>
                 {/* <!-- <a href="https://utordigital.com" target="_blank" class="contact-email-link ff-poppins">utordigital.com</a> --> */}
-                <div class="paragraph-light ff-poppins contact-email-link"> <a href="tel:+971509499114"> +971 50 949 9114 </a></div>
+                <div class="paragraph-light ff-poppins contact-email-link"> 
+                <NavLink to="tel:+971509499114"> +971 50 949 9114 </NavLink></div>
                 <p> <strong>Company Registration Number: 1182644</strong>  </p>
               </div>
             </div>

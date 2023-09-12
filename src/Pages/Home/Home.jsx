@@ -34,10 +34,10 @@ function Home () {
                   <h2 class="hero-sub-title"> Transform Your Ideas into Revolutionary Products </h2><br />
                 </div>
                 <div data-w-id="a56a7972-ead2-5105-a305-da00726053fd" class="mgbutton_wrapper">
-                  <a href="services.html" class="button cc-jumbo-button cc-jumbo-white w-inline-block"
+                  <NavLink to="/services" className="button cc-jumbo-button cc-jumbo-white w-inline-block"
                     data-aos="fade-up-left">
                     <div class="ff-poppins">Learn More</div>
-                  </a>
+                  </NavLink>
                 </div>
               </div>
             </div>
@@ -54,10 +54,10 @@ function Home () {
       Our Happy Clients
     </h2>
     <div data-w-id="ae26c204-33eb-a28a-97e7-d663c1ab3b97" class="mgbutton_wrapper p-0 pt-1  ">
-      <div class="custom-btn custom_btn_hover" data-aos="zoom-out-down"> <span></span> <span></span> <span></span> <span></span> <a
-          href="contact.html" class="link button viewallbtn">
-          <div class="text-block ">Contact Us</div>
-        </a></div>
+      <div class="custom-btn custom_btn_hover" data-aos="zoom-out-down"> <span></span> <span></span> <span></span> <span></span> 
+      <NavLink to="/contact" className="link button viewallbtn">
+          <div className="text-block ">Contact Us</div>
+        </NavLink></div>
     </div>
 
 <div class="cover-wrapper">
@@ -138,12 +138,12 @@ function Home () {
       <h3 class="label heading-2">How We Process Work?</h3>
     </div>
     <section class="sticky-nav-tabs container d-none">
-      <div class="sticky-nav-tabs-container nav tab-list-nav nav-tabs" id="myTab"> <a class="sticky-nav-tab"
-          href="#tab-react" data-aos="zoom-out-left">1. Discovery and Analysis</a> <a class="sticky-nav-tab"
-          href="#tab-angular" data-aos="zoom-out-left">
-          2. High-Level Design
-        </a> <a class="sticky-nav-tab" href="#tab-cssscript" data-aos="zoom-out-left">3. Development and Testing</a> <a
-          class="sticky-nav-tab" href="#tab-vue" data-aos="zoom-out-left">4. Support and Maintenance</a> <span
+      <div class="sticky-nav-tabs-container nav tab-list-nav nav-tabs" id="myTab"> 
+      <NavLink class="sticky-nav-tab" href="#tab-react" data-aos="zoom-out-left">1. Discovery and Analysis</NavLink> 
+          <NavLink class="sticky-nav-tab" href="#tab-angular" data-aos="zoom-out-left">
+          2. High-Level Design  </NavLink> 
+          <NavLink class="sticky-nav-tab" href="#tab-cssscript" data-aos="zoom-out-left">3. Development and Testing</NavLink>
+           <NavLink class="sticky-nav-tab" href="#tab-vue" data-aos="zoom-out-left">4. Support and Maintenance</NavLink> <span
           class="sticky-nav-tab-slider"></span> </div>
     </section>
     <div class="spa-main container">
@@ -423,15 +423,14 @@ function Home () {
             your business.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-          <NavLink to="/contact" class="link"> Read More → </NavLink>
+          <NavLink to="/contact" className="link"> Read More → </NavLink>
           </div>
         </div>
       
       </div>
       <div data-w-id="5722a384-1111-d9da-7f96-bff6449c16ad" class="mgbutton_wrapper view-btn p-0">
         <div class="custom-btn custom_btn_hover" > <span></span> <span></span> <span></span> <span></span>
-         <a href="/services"
-            class="link button viewallbtn text-block">View All</a>
+         <NavLink to="/services" className="link button viewallbtn text-block">View All</NavLink>
             </div>
       </div>
     </div>
@@ -707,12 +706,12 @@ function Home () {
           <p class="card__description">Explore the transformative world of Agile
                   Development, a paradigm shift in software engineering. This article delves into Agile's origins, core
                   values, and methodologies, including Scrum, Kanban, Extreme Programming (XP), and Lean.
-                  <NavLink  to="/blog"  class="learn-more-btn learn_btn"> Learn More </NavLink>
+                  <NavLink  to="/blog"  className="learn-more-btn learn_btn"  target='blank'> Learn More </NavLink>
                 </p> 
       </div>
       <footer class="card__footer">
-      <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span><a href=""> 22
-                Minutes Read</a>
+      <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span>
+      <NavLink to=""> 22 Minutes Read</NavLink>
       </footer>
   </article>
 
@@ -726,20 +725,26 @@ function Home () {
         <span class="card__date__month">Sep</span>
     </date>
     <div class="card__body">
-        <div class="card__category"><a className='text-white' target='blank' href="/software_testing">Software Testing</a></div>
-        <h2 class="card__title"><a className='card_tittle_heading' href="#">Best Practices for Software Testing and Quality Assurance</a></h2>
+        <div class="card__category">
+          <NavLink className='text-white' target='blank' to="/software_testing">Software Testing</NavLink>
+          </div>
+        <h2 class="card__title">
+          <NavLink className='card_tittle_heading' to="#">Best Practices for Software Testing and Quality Assurance</NavLink>
+          </h2>
         <div class="card__subtitle">Discover essential best practices for software testing and quality assurance
                 (QA) in the fast-paced world of software development.</div>
         <p class="card__description">In the fast-paced world of software development,
                   delivering a product that not only meets but exceeds user expectations is paramount. Achieving this
                   goal requires a systematic approach to software testing and quality assurance (QA).
-                  <NavLink  to="/blog" target="_blank" class="learn-more-btn learn_btn"> Learn More </NavLink></p>
+                  <NavLink to="/blog" className="learn-more-btn learn_btn"  target='blank'> Learn More </NavLink>
+                  </p>
     </div>
     <footer class="card__footer">
-    <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span><a href=""> 32
-                Minutes Read</a>
+    <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span>
+    <NavLink to=""> 32 Minutes Read</NavLink>
     </footer>
-</article>  <article class="card">
+</article>  
+<article class="card">
   <header class="card__thumb">
       <NavLink to="/blog"><img src={require("../images/cc-3.webp")} /></NavLink>
   </header>
@@ -749,19 +754,21 @@ function Home () {
       <span class="card__date__month">Sep</span>
   </date>
   <div class="card__body">
-      <div class="card__category"><a className='text-white' target='blank' href="/cloud_computing">Cloud Computing</a></div>
-      <h2 class="card__title"><a className='card_tittle_heading' href="#">Best Practices for Unlocking the Benefits of Cloud Computing for
-                  Businesses</a></h2>
+      <div class="card__category">
+        <NavLink className='text-white' target='blank' to="/cloud_computing">Cloud Computing</NavLink>
+        </div>
+      <h2 class="card__title">
+        <NavLink className='card_tittle_heading' to="#">Best Practices for Unlocking the Benefits of Cloud Computing for Businesses</NavLink></h2>
       <div class="card__subtitle">Explore the transformative power of cloud computing for businesses and learn
                 how to leverage its advantages effectively. </div>
       <p class="card__description">Explore performance monitoring, disaster recovery
                   planning, training and skill development, compliance, governance, and the importance of regular
                   evaluation and optimization in maximizing the potential of cloud technology for your business. 
-                  <NavLink  to="/blog" target="_blank" class="learn-more-btn learn_btn"> Learn More </NavLink></p>
+                  <NavLink to="/blog" className="learn-more-btn learn_btn"  target='blank'> Learn More </NavLink></p>
   </div>
   <footer class="card__footer">
-  <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span><a href=""> 43
-                Minutes Read</a>
+  <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span>
+  <NavLink to=""> 43 Minutes Read</NavLink>
   </footer>
 </article> 
 
@@ -775,19 +782,21 @@ function Home () {
       <span class="card__date__month">Sep</span>
   </date>
   <div class="card__body">
-      <div class="card__category"><a className='text-white' target='blank' href="/machine_learning">Machine Learning</a></div>
-      <h2 class="card__title"><a className='card_tittle_heading' href="#">Machine Learning and AI Applications in Software Development</a></h2>
-      <div class="card__subtitle">Discover the keys to successful machine learning and AI development for
-                software solutions.</div>
-      <p class="card__description">Explore essential best practices for integrating
+      <div class="card__category">
+        <NavLink className='text-white' target='blank' to="/machine_learning">Machine Learning</NavLink></div>
+      <h2 class="card__title">
+        <NavLink className='card_tittle_heading' to="#">Machine Learning and AI Applications in Software Development</NavLink></h2>
+      <div class="card__subtitle">Discover the keys to successful machine learning and AI development for software solutions.</div>
+      <p className="card__description Card_Padding">Explore essential best practices for integrating
                   machine learning and artificial intelligence into software development projects. Learn how to define
                   clear objectives, ensure data quality, select the right models, and prioritize ethics and
                   transparency.
-                  <NavLink  to="/blog" target="_blank" class="learn-more-btn learn_btn"> Learn More </NavLink></p>
+                  <NavLink to="/blog" className="learn-more-btn learn_btn" target='blank'> Learn More </NavLink>
+                  </p>
   </div>
   <footer class="card__footer">
-  <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span><a href=""> 22
-                Minutes Read</a>
+  <span class="icon ion-chatbox"> <i class="fa fa-comment" aria-hidden="true"></i> </span>
+  <NavLink to=""> 22 Minutes Read</NavLink>
   </footer>
 </article>
 </div>

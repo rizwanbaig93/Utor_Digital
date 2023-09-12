@@ -88,6 +88,30 @@ const Navbar = () => {
           Request a Quote
         </NavLink>
       </div>
+      <ul class="dropdown-menu p-3" aria-labelledby="dropdownMenuButton1">
+        <form class="input-forms" id="qoute-form">
+          <div class="input-group">
+            <label for="">Name</label>
+            <input type="text" placeholder="Name" name="name" id="numb" required/>
+          </div>
+          <div class="input-group">
+            <label for="">Email Address</label>
+            <input type="email" placeholder="Email Address" name="email" id="email" required/>
+          </div>
+          <div class="input-group">
+            <label for="">Contact Number</label>
+            <input type="number" placeholder="Contact Number" name="contact" id="contact" required/>
+          </div>
+          <div class="input-group">
+            <label for="">Your Message</label>
+            <textarea name="message" placeholder="Your message" id="message" cols="30" rows="7" required></textarea>
+          </div>
+          <div class="get-in-touch">
+           <input  readonly placeholder="Send"/>
+            <button class="custom-btn" type="submit"><span></span><span></span><span></span><span></span>Send</button>
+          </div>
+        </form>
+      </ul>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -142,9 +166,9 @@ const Navbar = () => {
         </li>
       </ul>
 
-        <div class="custom-btn request-qoute-btn d-sm-none d-md-block d-lg-block" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+        <div className="custom-btn request-qoute-btn d-sm-none d-md-block d-lg-block" id="dropdownMenuButton1" data-bs-toggle="dropdown"
         aria-expanded="false"> <span></span> <span></span> <span></span> <span></span> 
-        <NavLink to="/contact" class="navigation-item w-nav-link" >
+        <NavLink to="/contact" className="navigation-item w-nav-link" >
           Request a Quote
         </NavLink>
       </div>

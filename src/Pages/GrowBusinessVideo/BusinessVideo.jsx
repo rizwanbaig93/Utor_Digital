@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom';
 
 export default function BusinessVideo() {
   return (
@@ -23,11 +24,15 @@ export default function BusinessVideo() {
               existing automated system.<br />
             </div>
             <div data-w-id="2edbe9ca-babc-f4c1-b329-b1ec47b4ec9e" class="mgbutton_wrapper grow-business-btn">
-              <div class="custom-btn custom_btn_hover" data-aos="zoom-out-down"> <span></span> <span></span> <span></span> <span></span>
-                <a href="contact.html" class="link button text-block viewallbtn">
+              {/* <div class="custom-btn custom_btn_hover" data-aos="zoom-out-down"> <span></span> <span></span> <span></span> <span></span>
+                <NavLink to="/contact" classn="text-white link button text-block ">
                   Contact Us
-                </a>
-                </div>
+                </NavLink>
+                </div> */}
+                <div class="custom-btn  custom_btn_hover" data-aos="zoom-out-down"> <span></span> <span></span> <span></span> <span></span> 
+      <NavLink to="/contact" className="link border-none button viewallbtn text-block">
+          <div className="text-block border-none business_btn">Contact Us</div>
+        </NavLink></div>
             </div>
 
           </div>

@@ -2,6 +2,7 @@ import React from 'react'
 import "../Blog/Blog.css";
 import Navbar from '../../Components/Header/Navbar';
 import Footer from '../../Components/Footer/Footer';
+import { NavLink } from 'react-router-dom';
 
 function Blog() {
   return (
@@ -26,7 +27,7 @@ function Blog() {
               </div>
              
               <div data-w-id="aaa24f20-1b31-621d-e7df-309f857d4ec6" class="mgbutton_wrapper z-index-9" data-aos="zoom-in-up">
-                <a href="contact.html" class="contact_btn w-button ff-Acme text-light contact-now">Contact Us Now</a>
+                <NavLink to="/contact" className="contact_btn w-button ff-Acme text-light contact-now">Contact Us Now</NavLink>
               </div>
             </div>
           </div>

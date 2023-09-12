@@ -4,9 +4,17 @@
     display: none;
 }
 .custom_btn_hover{
-  background-color: #043187 !important ;
+  background-color: #043187  ;
   transition: 0.4s;
+  /* border: 3px solid #003298; */
 }
+
+.text-block {
+  color: white !important; 
+}
+
+
+
 .custom_btn_hover span{
   background-color:white !important;
 }
@@ -37,7 +45,7 @@
 
 .dropdown-menu[data-bs-popper] {
   top: 100%;
-  right: 0;
+  right: 10px;
   left: auto;
 }
 
@@ -552,6 +560,99 @@ background-color: #052562;
   padding-top: 1.5rem;
 }
 
+.blog-design-5 .card .learn_btn {
+  color: inherit;
+  overflow: hidden;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.learn_btn {
+  color: #0d3786;
+  color: var(--primary-color);
+  display: block;
+  font-size: .9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity .2s;
+}
+
+.slider-2 .intro-content .intro-text .button {
+  border: 5px solid;
+}
+
+.button.cc-jumbo-button.cc-jumbo-white {
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  position: static;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  position: relative;
+  z-index: 9;
+}
+
+.button.cc-jumbo-button {
+  background-color: rgba(0, 0, 0, 0);
+  border: 3px solid #00a8ea;
+  border-radius: 5px;
+  padding: 16px 35px;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+.mgbutton_wrapper {
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-rows: auto auto;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: 1fr;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  padding: 30px;
+  display: inline-block;
+}
+
+.link.button {
+  background-color: transparent;
+  border: 3px solid var(--primary-color);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  clear: none;
+  display: block;
+  float: none;
+  height: auto;
+  left: 554px;
+  margin: auto auto 20px;
+  object-fit: fill;
+  position: static;
+  top: -44px;
+  width: 100%;
+}
+
+.blog-design-5 .card:hover .Card_Padding {
+  opacity: 1;
+  transform: translateY(15px);
+  transition-delay: 0.2s;
+  line-height: 1.4;
+}
+
+.d-sm-none {
+  display: none;
+}
+
 /* // X-Small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
   .Blog_Heading .Custom_Size {
@@ -559,6 +660,12 @@ background-color: #052562;
       font-size: 14px !important;
       font-weight: 600;
       text-transform: uppercase;
+  }
+  .dropdown-menu[data-bs-popper] {
+    width: 90%;
+    top: 100%;
+    right: 15px;
+    left: auto;
   }
   .Blog_Heading >h1 {
       margin: 5px 0px;

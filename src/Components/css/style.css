@@ -257,6 +257,7 @@ img {
   /* background-color: var(--primary-color) ; */
   transition: 0.5s;
 }
+
 .custom-btn:hover span {
   transform: translateY(0) scale(2);
 }
@@ -3383,7 +3384,6 @@ p:last-child {
   position: static;
   top: -44px;
   left: 554px;
-
 }
 .grow-business-sec .link.button:hover {
   border-color: transparent;
@@ -4103,7 +4103,7 @@ p:last-child {
   margin-left: 10px;
   margin-right: 10px;
 }
-.mgbutton_wrapper {
+/* .mgbutton_wrapper {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
   grid-template-rows: auto auto;
@@ -4114,7 +4114,7 @@ p:last-child {
   align-items: center;
   padding: 30px;
   display: inline-block;
-}
+} */
 .div-block-9 {
   padding: 30px;
 }
@@ -6176,7 +6176,7 @@ h1.hero-title {
     width: auto !important;
   }
   .dropdown-menu.show {
-    transform: translate3d(5px, 45px, 0px) !important; 
+    transform: translate3d(0px, 0px, 0px) !important; 
 }
   .service-offer{
     padding-bottom: 0rem;
