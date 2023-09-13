@@ -21,6 +21,7 @@ import AgileDevelopment from "./Pages/Blog/Agile_Development";
 import SoftwareTesting from "./Pages/Blog/Software_Testing";
 import CloudComputing from "./Pages/Blog/Cloud_Computing";
 import MachineLearning from "./Pages/Blog/Machine_Learning";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 

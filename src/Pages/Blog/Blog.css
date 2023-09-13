@@ -149,11 +149,17 @@
    }
    .Blog_Section > h1 {
     padding-top: 10px !important;
-    line-height: 0;
+    line-height: 1.2;
    }
    .Blog_Img_MT {
     margin-top: 1rem !important;
    }
+   .startup-track-main {
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  }
 
 /* // Small devices (landscape phones, less than 768px) */

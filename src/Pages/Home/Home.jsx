@@ -153,7 +153,7 @@ function Home () {
             Analysis</h2>
           <h4 class="tab-Heading paragraph-bigger cc-bigger-light py-1rem p-0 m-0" data-aos="zoom-out-right">
             Understand the client's goals, requirements, and
-            challenges. Conduct a thorough analysis of the
+            challenges.Conduct a thorough analysis of the
             existing systems, processes, and technologies
           </h4>
           <div class="col-lg-6">
@@ -391,7 +391,7 @@ function Home () {
             innovation and success.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-            <NavLink to="/contact" class="link"> Read More → </NavLink>
+            <NavLink to="/contact" class="link" target="_blank"> Read More → </NavLink>
           </div>
         </div>
         <div id="w-node-deebbad6-1307-0d30-3a46-d875e4018a86-6b5e90c3" class="div-block div-block-2"
@@ -406,7 +406,7 @@ function Home () {
             accelerate time to market for your groundbreaking product
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-          <NavLink to="/contact" class="link"> Read More → </NavLink>
+          <NavLink to="/contact" class="link" target="_blank"> Read More → </NavLink>
           </div>
         </div>
         <div id="w-node-deebbad6-1307-0d30-3a46-d875e4018a8c-6b5e90c3" class="div-block div-block-3"
@@ -423,7 +423,7 @@ function Home () {
             your business.
           </div>
           <div data-w-id="d8580cb3-4f6e-2bf7-0cf1-e8c2dcb2bd9b" class="text-block-4 pb-0">
-          <NavLink to="/contact" className="link"> Read More → </NavLink>
+          <NavLink to="/contact" className="link" target="_blank"> Read More → </NavLink>
           </div>
         </div>
       
@@ -703,7 +703,7 @@ function Home () {
           <div class="card__category "><NavLink className='text-white' target='blank' to="/agile_development">Agile Development</NavLink></div>
           <h2 class="card__title"><NavLink className='card_tittle_heading' to="">Introduction to Agile Development:</NavLink></h2>
           <div class="card__subtitle"> A Paradigm Shift in Software Engineering.</div>
-          <p class="card__description">Explore the transformative world of Agile
+          <p class="card__description blog_One">Explore the transformative world of Agile
                   Development, a paradigm shift in software engineering. This article delves into Agile's origins, core
                   values, and methodologies, including Scrum, Kanban, Extreme Programming (XP), and Lean.
                   <NavLink  to="/blog"  className="learn-more-btn learn_btn"  target='blank'> Learn More </NavLink>
@@ -733,7 +733,7 @@ function Home () {
           </h2>
         <div class="card__subtitle">Discover essential best practices for software testing and quality assurance
                 (QA) in the fast-paced world of software development.</div>
-        <p class="card__description">In the fast-paced world of software development,
+        <p class="card__description blog_ptag">In the fast-paced world of software development,
                   delivering a product that not only meets but exceeds user expectations is paramount. Achieving this
                   goal requires a systematic approach to software testing and quality assurance (QA).
                   <NavLink to="/blog" className="learn-more-btn learn_btn"  target='blank'> Learn More </NavLink>
@@ -761,7 +761,7 @@ function Home () {
         <NavLink className='card_tittle_heading' to="#">Best Practices for Unlocking the Benefits of Cloud Computing for Businesses</NavLink></h2>
       <div class="card__subtitle">Explore the transformative power of cloud computing for businesses and learn
                 how to leverage its advantages effectively. </div>
-      <p class="card__description">Explore performance monitoring, disaster recovery
+      <p class="card__description blog_ptag">Explore performance monitoring, disaster recovery
                   planning, training and skill development, compliance, governance, and the importance of regular
                   evaluation and optimization in maximizing the potential of cloud technology for your business. 
                   <NavLink to="/blog" className="learn-more-btn learn_btn"  target='blank'> Learn More </NavLink></p>
@@ -787,7 +787,7 @@ function Home () {
       <h2 class="card__title">
         <NavLink className='card_tittle_heading' to="#">Machine Learning and AI Applications in Software Development</NavLink></h2>
       <div class="card__subtitle">Discover the keys to successful machine learning and AI development for software solutions.</div>
-      <p className="card__description Card_Padding">Explore essential best practices for integrating
+      <p className="card__description Card_Padding blog_ptag">Explore essential best practices for integrating
                   machine learning and artificial intelligence into software development projects. Learn how to define
                   clear objectives, ensure data quality, select the right models, and prioritize ethics and
                   transparency.

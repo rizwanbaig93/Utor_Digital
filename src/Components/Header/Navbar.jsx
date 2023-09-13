@@ -118,7 +118,6 @@ const Navbar = () => {
     </button>
 
     
-    
     <div class="collapse navbar-collapse "  id="navbarSupportedContent">
       <ul class="navbar-nav  mx-auto mb-2 mb-lg-0  Nav_Header">
         <li class="nav-item">
