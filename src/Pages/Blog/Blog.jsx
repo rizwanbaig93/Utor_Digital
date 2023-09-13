@@ -38,7 +38,7 @@ function Blog() {
       {/* <================> */}
 
       {/* Intro Section * */}
-      <div className="container mt-5">
+      <div className="container intro-mt mt-5">
     <div className="Blog_Section" data-aos="fade-left">
         <div className="row">
             <div className="col-lg-6 col-sm-12 col-md-8">
@@ -51,6 +51,7 @@ function Blog() {
                     </p>
                 </div>
             </div>
+
             <div className="col-lg-6 col-sm-12 col-md-8" data-aos="fade-left" >
                 <div className="Blog_Intro_Img Blog_Img Intro_Blog_Img" >
                     <img src={require ("../images/BlogIntroImg.webp")} className="img-fluid" alt="" />
@@ -66,6 +67,11 @@ function Blog() {
      <div className="Blog_Section ">
         <h1 className="text-center pt-5" data-aos="zoom-in-down">IDEATION PHASE</h1>
         <div className="row Blog_Ideation_Margin">
+        <div className="col-lg-6 col-sm-12 col-md-8 d-sm-block d-md-none d-lg-none" data-aos="fade-left" >
+                <div className="Blog_Intro_Img Blog_Img">
+                    <img src={require ("../images/IdeationImg.webp")} className="img-fluid" alt="" />
+                </div>
+            </div>
             <div className="col-lg-6 col-sm-12 col-md-8" data-aos="zoom-in-right">
                 <div className="Blog_Intro_Heading">
                     <h1 > Identify a Problem: </h1>
@@ -80,7 +86,7 @@ function Blog() {
                     <p > Break down your concept into smaller user stories or features. These will serve as the building blocks of your product and will help define the scope of development. </p>
                 </div>
             </div>
-            <div className="col-lg-6 col-sm-12 col-md-8" data-aos="fade-left" >
+            <div className="col-lg-6 col-sm-12 col-md-8 d-sm-none d-md-block d-lg-block" data-aos="fade-left" >
                 <div className="Blog_Intro_Img Blog_Img">
                     <img src={require ("../images/IdeationImg.webp")} className="img-fluid" alt="" />
                 </div>
@@ -93,7 +99,7 @@ function Blog() {
       {/* Agile Development and MVP Section * */}     
      <div className="container ">
     <div className="Blog_Section ">
-        <h1 className="text-center pt-3" data-aos="zoom-in-down">Agile Development and MVP</h1>
+        <h1 className="text-center agile-mb pt-3" data-aos="zoom-in-down">Agile Development and MVP</h1>
         <div className="row Blog_Ideation_Margin">
         <div className="col-lg-6 col-sm-12 col-md-8" data-aos="fade-right">
                 <div className="Blog_Intro_Img Blog_Img">
@@ -117,6 +123,11 @@ function Blog() {
         </div>
 
         <div className="row Blog_Ideation_Margin">
+        <div className="col-lg-6 col-sm-12 col-md-8 d-sm-block d-md-none d-lg-none" data-aos="fade-up-left">
+                <div className="Blog_Intro_Img Blog_Img">
+                    <img src={require ("../images/ReviewImg.webp")} className="img-fluid Blog_Img_MT" alt="" />
+                </div>
+            </div>
             <div className="col-lg-6 col-sm-12 col-md-8" data-aos="fade-up-right">
                 <div className="Blog_Intro_Heading">
                     <h1 > Regular Reviews: </h1>
@@ -132,7 +143,7 @@ function Blog() {
                 </div>
             </div>
             
-        <div className="col-lg-6 col-sm-12 col-md-8" data-aos="fade-up-left">
+        <div className="col-lg-6 col-sm-12 col-md-8 d-sm-none d-md-block d-lg-block" data-aos="fade-up-left">
                 <div className="Blog_Intro_Img Blog_Img">
                     <img src={require ("../images/ReviewImg.webp")} className="img-fluid Blog_Img_MT" alt="" />
                 </div>
@@ -147,6 +158,11 @@ function Blog() {
     <div className="Blog_Section ">
         <h1 className="text-center pt-3" data-aos="zoom-in-down">From MVP to Real Product</h1>
         <div className="row Blog_Ideation_Margin">
+        <div className="col-lg-6 col-sm-12 col-md-8 d-sm-block d-md-none d-lg-none" data-aos="fade-right">
+                <div className="Blog_Intro_Img Blog_Img">
+                    <img src={require ("../images/RealProductImg.webp")} className="img-fluid" alt="" />
+                </div>
+            </div>
             <div className="col-lg-6 col-sm-12 col-md-8" data-aos="fade-left">
                 <div className="Blog_Intro_Heading">
                     <h1 > Scaling Up: </h1>
@@ -161,7 +177,7 @@ function Blog() {
                     <p > Continue using agile methodologies for project management. Break down tasks into manageable chunks, maintain an iterative approach, and ensure close collaboration among your development team. </p>
                 </div>
             </div>
-        <div className="col-lg-6 col-sm-12 col-md-8" data-aos="fade-right">
+        <div className="col-lg-6 col-sm-12 col-md-8 d-sm-none d-md-block d-lg-block" data-aos="fade-right">
                 <div className="Blog_Intro_Img Blog_Img">
                     <img src={require ("../images/RealProductImg.webp")} className="img-fluid" alt="" />
                 </div>

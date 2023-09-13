@@ -120,13 +120,19 @@
         height: auto !important;
     }
     .Blog_Img > img {
-        width: 662px;
-        height: auto;
+      width: 317px;
+      height: 219px;
     }
     .Blog_Section > h1 {
-        color: var(--primary-color);
-        font-size: 20px;
-    }
+      font-weight: 700;
+      color: var(--primary-color);
+      font-size: 18px;
+  }
+
+  .agile-mb {
+    margin-bottom: 0 !important;
+  }
+  
     .Blog_Mobile_Height {
         height: 40vh;
     }
@@ -135,7 +141,16 @@
         font-weight: 700;
         line-height: 45px;
         text-transform: uppercase;
+        text-align: left;
     }
+    .Blog_Intro_Heading {
+      margin-top: 0rem !important;
+    }
+
+    .intro-mt {
+      margin-top: 0.5rem !important;
+    }
+
     .Blog_Intro_Heading > p {
         font-size: 15px;
         line-height: 23px;
