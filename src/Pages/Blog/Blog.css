@@ -97,102 +97,105 @@
     opacity: 0.4;
   }
 
-  /* // X-Small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { 
-    .Blog_Heading .Custom_Size {
-        color: #FFF;
-        font-size: 14px !important;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-    .Blog_Heading >h1 {
-        margin: 5px 0px;
-        color: #FFF;
-        text-align: center;
-        font-size: 19px !important;
-        font-style: normal;
-        font-weight: 700;
-        text-transform: uppercase;
-        line-height: 22px;
-    }
-    .Intro_Blog_Img {
-        width: auto !important;
-        height: auto !important;
-    }
-    .Blog_Img > img {
-      width: 317px;
-      height: 219px;
-    }
-    .Blog_Section > h1 {
-      font-weight: 700;
-      color: var(--primary-color);
-      font-size: 18px;
-  }
+ 
 
-  .agile-mb {
-    margin-bottom: 0 !important;
-  }
-  
-    .Blog_Mobile_Height {
-        height: 40vh;
-    }
-    .Blog_Intro_Heading >h1 {
-        font-size: 18px;
-        font-weight: 700;
-        line-height: 45px;
-        text-transform: uppercase;
-        text-align: left;
-    }
-    .Blog_Intro_Heading {
-      margin-top: 0rem !important;
-    }
 
-    .intro-mt {
-      margin-top: 0.5rem !important;
-    }
 
-    .Blog_Intro_Heading > p {
-        font-size: 15px;
-        line-height: 23px;
-        font-weight: 400;
-    }
-    .Blog_Intro_Heading {
-      padding: 0 !important;
-    }
-    .Blog_Ideation_Margin {
-    margin-top: 0;
-   }
-   .Blog_Section > h1 {
-    padding-top: 10px !important;
-    line-height: 1.2;
-   }
-   .Blog_Img_MT {
-    margin-top: 1rem !important;
-   }
-   .startup-track-main {
-    height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
- }
 
-/* // Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) { 
-    
- }
-
-/* // Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) { 
-    
- }
-
-/* // Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) { 
-    
- }
 
 /* // X-Large devices (large desktops, less than 1400px) */
 @media (max-width: 1399.98px) { 
-
 }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {  
+}
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+}
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {   
+}
+
+ /* // X-Small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+  .Blog_Heading .Custom_Size {
+      color: #FFF;
+      font-size: 14px !important;
+      font-weight: 600;
+      text-transform: uppercase;
+  }
+  .Blog_Heading >h1 {
+      margin: 5px 0px;
+      color: #FFF;
+      text-align: center;
+      font-size: 19px !important;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: uppercase;
+      line-height: 22px;
+  }
+  .Intro_Blog_Img {
+      width: auto !important;
+      height: auto !important;
+  }
+  .Blog_Img > img {
+    width: 317px;
+    height: 219px;
+  }
+  .Blog_Section > h1 {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.agile-mb {
+  margin-bottom: 0 !important;
+}
+
+  .Blog_Mobile_Height {
+      height: 40vh;
+  }
+  .Blog_Intro_Heading >h1 {
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 45px;
+      text-transform: uppercase;
+      text-align: left;
+  }
+  .Blog_Intro_Heading {
+    margin-top: 0rem !important;
+  }
+
+  .intro-mt {
+    margin-top: 0.5rem !important;
+  }
+
+  .Blog_Intro_Heading > p {
+      font-size: 15px;
+      line-height: 23px;
+      font-weight: 400;
+  }
+  .Blog_Intro_Heading {
+    padding: 0 !important;
+  }
+  .Blog_Ideation_Margin {
+  margin-top: 0;
+ }
+ .Blog_Section > h1 {
+  padding-top: 10px !important;
+  line-height: 1.2;
+ }
+ .Blog_Img_MT {
+  margin-top: 1rem !important;
+ }
+ .startup-track-main {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+}
+
+

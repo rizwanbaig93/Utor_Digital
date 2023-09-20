@@ -452,7 +452,7 @@ background-color: #052562;
 }
 
 #Blog_BgImg.agile {
-  background-image:  url("../src/Pages/images/agile-methodology5.webp");
+  background-image:  url("../src/Pages/images/agile-methodology6.webp");
 }
 
 
@@ -680,8 +680,27 @@ background-color: #052562;
   .Blog_Img > img {
       width: 662px;
       height: auto;
-
   }
+  .Intro_mt {
+    margin-top: 1rem !important;
+    }
+
+    .best-practise .Blog_Intro_Heading h5 {
+      padding-top: 0;
+  }
+
+  .cost_pt {
+    padding-top: 1rem !important;
+  }
+
+  .Blog_Intro_Heading > h5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 15px;
+}
+
   .Blog_Section > h1 {
       color: var(--primary-color);
       font-size: 20px;
@@ -811,6 +830,7 @@ background-color: #052562;
 .utor_links a {
   font-size: 15px;
 }
+
 }
 
  /* ************************** Blog Detail ends ******************** */
