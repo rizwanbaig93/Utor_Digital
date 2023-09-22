@@ -8,6 +8,7 @@ function Blog() {
   return (
     <div>
         <Navbar/>
+        
       {/* Hero Section * */}
       <div data-delay="3000" data-animation="slide" id="Blog_BgImg" data-autoplay="true" data-easing="ease"
         data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="5"

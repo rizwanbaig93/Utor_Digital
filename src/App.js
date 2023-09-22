@@ -14,7 +14,6 @@ import HalahiCaseStudy from "./Pages/Portfolio/CaseStudy/HalahiCaseStudy";
 import UmileCaseStudy from "./Pages/Portfolio/CaseStudy/UmileCaseStudy";
 import RRFCaseStudy from "./Pages/Portfolio/CaseStudy/RRFCaseStudy";
 import FoodleCaseStudy from "./Pages/Portfolio/CaseStudy/FoodleCaseStudy";
-// import OutSourceNzCaseStudy from "./Pages/Portfolio/CaseStudy/OutsourceNzCaseStudy.jsx";
 import BharteeCaseStudy from "./Pages/Portfolio/CaseStudy/BharteeCaseStudy";
 import KorneezCaseStudy from "./Pages/Portfolio/CaseStudy/KorneezCaseStudy.jsx";
 import AgileDevelopment from "./Pages/Blog/Agile_Development";

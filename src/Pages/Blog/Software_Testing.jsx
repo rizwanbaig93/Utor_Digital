@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react'
 import Navbar from '../../Components/Header/Navbar';
 
@@ -53,7 +54,7 @@ export default function Software_Testing() {
           </div>
           <div class="col-lg-6 col-sm-12 col-md-8" data-aos="fade-left">
             <div class="Blog_Intro_Img Blog_Img Intro_Blog_Img">
-              <img src={require("../images/qa-5 (1).webp")} class="img-fluid"
+              <img src={require("../images/qa-5.webp")} class="img-fluid"
                 alt="Software Testing Image" />
             </div>
           </div>
