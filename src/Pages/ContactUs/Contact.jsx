@@ -71,8 +71,8 @@ export default function Contact() {
               <p className="paragraph-light ff-poppins">Office 2F..17, AL SAFIYA - BLDG <br /> Hor Al Anz, Dubai, UAE</p>
              
               <div class="uae-office">
-                <NavLink to="mailto:info@utordigital.com?subject=You&#x27;ve%20got%20mail!"
-                  className="contact-email-link ff-poppins">info@utordigital.com</NavLink>
+                <NavLink to="mailto:sales@utordigital.com?subject=You&#x27;ve%20got%20mail!"
+                  className="contact-email-link ff-poppins">sales@utordigital.com</NavLink>
                 {/* <!-- <a href="https://utordigital.com" target="_blank" class="contact-email-link ff-poppins">utordigital.com</a> --> */}
                 <div class="paragraph-light ff-poppins contact-email-link"> 
                 <NavLink to="tel:+971509499114"> +971 50 949 9114 </NavLink></div>
