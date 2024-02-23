@@ -1,11 +1,40 @@
 /* eslint-disable jsx-a11y/iframe-has-title */
-import React from 'react'
+import React from 'react';
+import Swal from 'sweetalert2';
 import Navbar from '../../Components/Header/Navbar';
 import Footer from '../../Components/Footer/Footer';
 import BusinessVideo from '../GrowBusinessVideo/BusinessVideo';
 import { NavLink } from 'react-router-dom';
 
 export default function Contact() {
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  
+    // Your form submission logic here
+  
+    // For example, assume your form submission returns success as a boolean
+    const isSubmissionSuccessful = true; // Replace with your actual logic
+  
+    if (isSubmissionSuccessful) {
+      // Show SweetAlert on successful form submission
+      Swal.fire({
+        icon: 'success',
+        title: 'Success!',
+        text: 'Thank you! Your submission has been received!',
+      });
+  
+      // Optional: Reset the form fields
+      e.target.reset();
+    } else {
+      // Show SweetAlert for error
+      Swal.fire({
+        icon: 'error',
+        title: 'Oops...',
+        text: 'Something went wrong! Please try again later.',
+      });
+    }
+  };
+  
   return (
     <>
     <Navbar/>
@@ -23,7 +52,7 @@ export default function Contact() {
             </div>
             <div class="contact-form w-form">
               <form data-name="Get In Touch Form" name="wf-form-Get-In-Touch-Form" id="contactForm"
-                class="get-in-touch-form" data-aos="zoom-in-down">
+                class="get-in-touch-form" data-aos="zoom-in-down" onSubmit={handleSubmit}>
                 <label for="name" class="ff-Acme">Name</label>
                 <input type="text" class="text-field cc-contact-field w-input" maxlength="256" id="name" name="name"
                   placeholder="Your name" required />
@@ -71,8 +100,8 @@ export default function Contact() {
               <p className="paragraph-light ff-poppins">Office 2F..17, AL SAFIYA - BLDG <br /> Hor Al Anz, Dubai, UAE</p>
              
               <div class="uae-office">
-                <NavLink to="mailto:info@utordigital.com?subject=You&#x27;ve%20got%20mail!"
-                  className="contact-email-link ff-poppins">info@utordigital.com</NavLink>
+                <NavLink to="mailto:sales@utordigital.com?subject=You&#x27;ve%20got%20mail!"
+                  className="contact-email-link ff-poppins">sales@utordigital.com</NavLink>
                 {/* <!-- <a href="https://utordigital.com" target="_blank" class="contact-email-link ff-poppins">utordigital.com</a> --> */}
                 <div class="paragraph-light ff-poppins contact-email-link"> 
                 <NavLink to="tel:+971509499114"> +971 50 949 9114 </NavLink></div>
